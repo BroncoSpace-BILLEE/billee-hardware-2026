@@ -253,7 +253,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "PDB_LSCS_Libs"
+    ]
   },
   "meta": {
     "filename": "BILLEE_Rover_Control_Module_V1.kicad_pro",
@@ -416,17 +418,13 @@
         "uuid": "e701dc98-f022-461d-84b5-6b2dd8d89d58"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW1,CN1,#PWR1-10,U1-14",
     "variants": []
   },
   "sheets": [
     [
       "e701dc98-f022-461d-84b5-6b2dd8d89d58",
       "BILLEE_Rover_Control_Module_V1"
-    ],
-    [
-      "31334da3-4a62-4d3e-90d6-eb33640e13c9",
-      "INPUTS_ESTOP"
     ]
   ],
   "text_variables": {},
