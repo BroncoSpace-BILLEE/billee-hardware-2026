@@ -2,9 +2,59 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid e701dc98-f022-461d-84b5-6b2dd8d89d58)
+	(uuid "e701dc98-f022-461d-84b5-6b2dd8d89d58")
 	(paper "A4")
+	(title_block
+		(date "2026-07-05")
+		(rev "A")
+	)
 	(lib_symbols)
+	(sheet
+		(at 17.018 17.526)
+		(size 35.56 16.764)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "31334da3-4a62-4d3e-90d6-eb33640e13c9")
+		(property "Sheetname" "INPUTS_ESTOP"
+			(at 17.018 16.8144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inputs_estop.kicad_sch"
+			(at 17.018 34.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
