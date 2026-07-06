@@ -1,0 +1,2 @@
+[console_scripts]
+easyeda2kicad = easyeda2kicad.__main__:main
