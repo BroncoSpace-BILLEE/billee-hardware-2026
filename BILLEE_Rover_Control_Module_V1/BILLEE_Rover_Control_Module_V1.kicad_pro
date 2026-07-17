@@ -418,13 +418,17 @@
         "uuid": "e701dc98-f022-461d-84b5-6b2dd8d89d58"
       }
     ],
-    "used_designators": "SW1,CN1,#PWR1-10,U1-14",
+    "used_designators": "SW1-3,CN1,L1-2,#PWR1-51,U1-18,C1-34,J1-4,R1-12,Y1",
     "variants": []
   },
   "sheets": [
     [
       "e701dc98-f022-461d-84b5-6b2dd8d89d58",
       "BILLEE_Rover_Control_Module_V1"
+    ],
+    [
+      "46ee40fa-f724-4b58-ad1f-c10301d1abb5",
+      "MCU RP2350A"
     ]
   ],
   "text_variables": {},
