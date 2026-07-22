@@ -1,0 +1,10 @@
+From Project Root
+
+On windows powershell:
+.\kicad-venv\Scripts\Activate.ps1
+
+On git bash windows:
+source kicad-venv/Scripts/activate
+
+On Linux
+source kicad-venv/bin/activate

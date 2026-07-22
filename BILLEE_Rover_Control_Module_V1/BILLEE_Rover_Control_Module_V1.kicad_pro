@@ -281,6 +281,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "90R_DIFFPAIR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -288,7 +295,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "90R_DIFFPAIR",
+        "pattern": "/MCU RP2350A/DP_D-"
+      },
+      {
+        "netclass": "90R_DIFFPAIR",
+        "pattern": "/MCU RP2350A/DP_D+"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -418,7 +434,7 @@
         "uuid": "e701dc98-f022-461d-84b5-6b2dd8d89d58"
       }
     ],
-    "used_designators": "SW1-3,CN1,L1-2,#PWR1-51,U1-18,C1-34,J1-4,R1-12,Y1",
+    "used_designators": "D1,#PWR1-12,#PWR18,#PWR32-40,U1-14,U17-20,R12-25,SW1,C1,CN1",
     "variants": []
   },
   "sheets": [
@@ -429,6 +445,14 @@
     [
       "46ee40fa-f724-4b58-ad1f-c10301d1abb5",
       "MCU RP2350A"
+    ],
+    [
+      "38c7de8f-1e1e-425a-b64c-5257d5cddadc",
+      "E-STOP Circuit"
+    ],
+    [
+      "e37b5ac2-398e-41bf-8fb6-2ff87cb1df37",
+      "Power"
     ]
   ],
   "text_variables": {},
