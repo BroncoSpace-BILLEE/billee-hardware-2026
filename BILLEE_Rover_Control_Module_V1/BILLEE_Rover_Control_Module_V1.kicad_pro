@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -254,7 +254,9 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "PDB_LSCS_Libs"
+      "PDB_LSCS_Libs",
+      "PDB_LCSC",
+      "PDB_LCSC_Libs"
     ]
   },
   "meta": {
@@ -434,7 +436,7 @@
         "uuid": "e701dc98-f022-461d-84b5-6b2dd8d89d58"
       }
     ],
-    "used_designators": "D1,#PWR1-12,#PWR18,#PWR32-40,U1-14,U17-20,R12-25,SW1,C1,CN1",
+    "used_designators": "L2-5,#PWR8,#PWR11-12,#PWR41-105,U1-12,U14-25,TP1-8,USB1,R26-69,#FLG1-6,C1,C15-41,CN2,Q1",
     "variants": []
   },
   "sheets": [

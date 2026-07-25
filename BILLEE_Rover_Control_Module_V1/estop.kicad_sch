@@ -5,7 +5,7 @@
 	(uuid "03d53405-4a04-4c5d-8959-ccc104d4d208")
 	(paper "A4")
 	(lib_symbols
-		(symbol "PDB_LSCS_Libs:KF301-5.0-2P"
+		(symbol "PDB_LCSC_Libs:KF301-5.0-2P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -170,7 +170,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PDB_LSCS_Libs:SN74LVC08APWR"
+		(symbol "PDB_LCSC_Libs:SN74LVC08APWR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -187,7 +187,7 @@
 				)
 			)
 			(property "Value" "SN74LVC08APWR"
-				(at -0.254 -16.256 0)
+				(at 10.922 11.176 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -276,7 +276,7 @@
 			(symbol "SN74LVC08APWR_0_1"
 				(rectangle
 					(start -6.35 10.16)
-					(end 6.35 -13.97)
+					(end 6.35 -12.7)
 					(stroke
 						(width 0)
 						(type default)
@@ -405,7 +405,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -16.51 90)
+					(at 0 -15.24 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1052,7 +1052,7 @@
 	)
 	(text_box "AND Gate array for ESTOP Circuit"
 		(exclude_from_sim no)
-		(at 102.235 61.1774 0)
+		(at 113.03 47.8424 0)
 		(size 17.78 8.0376)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1089,12 +1089,6 @@
 			(justify left top)
 		)
 		(uuid "8332dabc-ea40-4dcc-92da-dce8229a104b")
-	)
-	(junction
-		(at 58.42 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dea0115-337f-43d4-a43b-0aefe2c5300b")
 	)
 	(junction
 		(at 58.42 120.65)
@@ -1151,46 +1145,36 @@
 		(uuid "e94c28f8-2b73-4188-8c23-9e5e2fbd0ea8")
 	)
 	(no_connect
-		(at 85.09 166.37)
-		(uuid "0de15aeb-6378-4503-afcd-a1dd9d62f471")
-	)
-	(no_connect
-		(at 102.87 163.83)
-		(uuid "383cbef5-1531-4722-aaf7-b7acb107f66b")
-	)
-	(no_connect
-		(at 85.09 161.29)
-		(uuid "573fb016-464e-4961-92fe-6455f5d0acfb")
-	)
-	(no_connect
-		(at 85.09 163.83)
-		(uuid "6a6e5f4f-e701-4604-b2c5-a8885b23dda9")
-	)
-	(no_connect
 		(at 85.09 158.75)
-		(uuid "6dc9bbb4-273f-445d-9c12-e0040d04de07")
+		(uuid "039ceb54-14bc-4c6f-ac75-6b19ad5ee22c")
+	)
+	(no_connect
+		(at 85.09 156.21)
+		(uuid "390daa22-64f8-417b-a36b-c2d8edbcede1")
 	)
 	(no_connect
 		(at 102.87 161.29)
-		(uuid "821e8b71-edda-4f84-874b-b809d197f313")
-	)
-	(no_connect
-		(at 102.87 158.75)
-		(uuid "9a10607d-c590-4519-90bd-13c30760c11e")
+		(uuid "51479fb4-27ca-4a52-81df-87a6bcfcf691")
 	)
 	(no_connect
 		(at 85.09 168.91)
-		(uuid "c90ef38c-bd7b-47a1-86f1-db819b1cd3ee")
+		(uuid "526a37e0-1a0d-48e6-b5b2-35879218963e")
 	)
-	(wire
-		(pts
-			(xy 58.42 151.13) (xy 58.42 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01ff24f4-5f4e-462f-be07-2f566d773643")
+	(no_connect
+		(at 102.87 163.83)
+		(uuid "6c00133f-2ef7-4cd6-82ef-2265b065741c")
+	)
+	(no_connect
+		(at 85.09 166.37)
+		(uuid "90a172bc-f71d-4d2f-82d2-be4766c782d6")
+	)
+	(no_connect
+		(at 85.09 163.83)
+		(uuid "989eea18-abe7-4cb7-86e3-61362dd42332")
+	)
+	(no_connect
+		(at 85.09 161.29)
+		(uuid "c53b21b2-91f9-4868-970b-e4636ee20bf0")
 	)
 	(wire
 		(pts
@@ -1261,16 +1245,6 @@
 			(type default)
 		)
 		(uuid "61d10e33-afd2-4f55-87a5-e751204951b7")
-	)
-	(wire
-		(pts
-			(xy 58.42 156.21) (xy 85.09 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "627c39e1-9b5c-41b8-aa68-0504480e68ef")
 	)
 	(wire
 		(pts
@@ -1756,8 +1730,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PDB_LSCS_Libs:SN74LVC08APWR")
-		(at 93.98 77.47 0)
+		(lib_id "PDB_LCSC_Libs:SN74LVC08APWR")
+		(at 93.98 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1765,9 +1739,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "265fafa8-7a8e-4d3a-85d9-02416c41a6c9")
-		(property "Reference" "U2"
-			(at 101.346 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "14b733b2-c3ea-4a5a-a95b-49731df987b7")
+		(property "Reference" "U20"
+			(at 96.1233 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1778,7 +1753,7 @@
 			)
 		)
 		(property "Value" "SN74LVC08APWR"
-			(at 101.092 90.17 0)
+			(at 96.1233 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1789,7 +1764,7 @@
 			)
 		)
 		(property "Footprint" "PDB_LCSC:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
-			(at 93.98 92.71 0)
+			(at 93.98 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1800,7 +1775,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Gates-and-Inverters_Texas-Instruments-Texas-Instruments-SN74LVC08APWR_C465737.html"
-			(at 93.98 95.25 0)
+			(at 93.98 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1811,7 +1786,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 77.47 0)
+			(at 93.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1822,7 +1797,7 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
-			(at 93.98 97.79 0)
+			(at 93.98 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1833,7 +1808,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC08APWR"
-			(at 93.98 100.33 0)
+			(at 93.98 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1844,7 +1819,7 @@
 			)
 		)
 		(property "LCSC Part" "C465737"
-			(at 93.98 102.87 0)
+			(at 93.98 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1854,52 +1829,52 @@
 				)
 			)
 		)
-		(pin "14"
-			(uuid "51d1503a-89df-4793-94c2-0e516c5f0b1f")
-		)
-		(pin "13"
-			(uuid "9f9e7181-9f80-41eb-a32c-25f476318299")
-		)
-		(pin "12"
-			(uuid "21fac4a7-c9c3-46b5-a652-9df29a8b519d")
-		)
-		(pin "11"
-			(uuid "e741e3d2-9a27-4a87-8a05-534a602dfa70")
-		)
 		(pin "10"
-			(uuid "fefc8d1c-432b-4f3d-8505-54339d0a1dd0")
-		)
-		(pin "9"
-			(uuid "184ee045-eb95-4578-bbe4-fdc0661b6836")
-		)
-		(pin "8"
-			(uuid "0fcdf107-f8f7-4a03-a330-ff22edbe1a0e")
-		)
-		(pin "7"
-			(uuid "277da51e-6476-4504-8ab2-d94d634baf1d")
-		)
-		(pin "6"
-			(uuid "9b3eed96-239b-4c90-b9b8-a376c49def38")
-		)
-		(pin "5"
-			(uuid "ee49655d-d2fd-4151-a976-bf85101559dd")
-		)
-		(pin "4"
-			(uuid "f134c480-2a8d-405e-8e51-00fea307dbe5")
-		)
-		(pin "3"
-			(uuid "17617e07-6bb7-4991-9ef3-51f28ede9684")
+			(uuid "88be1f51-6f0c-43b1-8de3-b2465f7cd28f")
 		)
 		(pin "2"
-			(uuid "4cca4584-b8f0-4095-b685-496a8d503517")
+			(uuid "22843033-53ee-4e25-9181-14dfe56d59b3")
+		)
+		(pin "14"
+			(uuid "9df160a7-f81b-4bf0-98c4-3bf93376fc49")
+		)
+		(pin "3"
+			(uuid "9c1ddb9c-30bf-4e27-b1b2-55ab04aa9e94")
 		)
 		(pin "1"
-			(uuid "6ca54f1c-8db8-44fe-9547-2753a77d4ecf")
+			(uuid "0926fa02-3a9b-46ce-a74e-b2966b137050")
+		)
+		(pin "7"
+			(uuid "f863f4dd-c464-45e7-a426-d1f1ce7e28e5")
+		)
+		(pin "8"
+			(uuid "35d28e89-e502-4ced-83f8-406502987f07")
+		)
+		(pin "11"
+			(uuid "e5be116e-c66d-4ef1-8199-9d4f2df61fb3")
+		)
+		(pin "12"
+			(uuid "4b829696-ecc5-4501-8538-b05f862ff318")
+		)
+		(pin "5"
+			(uuid "d2870f51-164b-4b47-8753-e32390415731")
+		)
+		(pin "9"
+			(uuid "78a08a44-d295-4242-97ff-b5a9b38aae33")
+		)
+		(pin "4"
+			(uuid "0465dcf0-e57c-477e-afe7-fae9e6bb378e")
+		)
+		(pin "6"
+			(uuid "58af88c6-1981-4f25-8f9c-e04c89fb8e76")
+		)
+		(pin "13"
+			(uuid "13062c30-3d8f-4ffb-b334-3678de9083fe")
 		)
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/38c7de8f-1e1e-425a-b64c-5257d5cddadc"
-					(reference "U2")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -1984,8 +1959,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PDB_LSCS_Libs:SN74LVC08APWR")
-		(at 93.98 158.75 0)
+		(lib_id "PDB_LCSC_Libs:SN74LVC08APWR")
+		(at 93.98 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1993,9 +1968,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "40d65f78-87d7-4c01-bca2-bebbf9da7706")
-		(property "Reference" "U4"
-			(at 101.346 168.91 0)
+		(uuid "557f43c8-c2de-438e-b103-cb1a4fe93a05")
+		(property "Reference" "U3"
+			(at 97.028 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2006,7 +1981,7 @@
 			)
 		)
 		(property "Value" "SN74LVC08APWR"
-			(at 101.346 171.45 0)
+			(at 96.774 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2017,7 +1992,7 @@
 			)
 		)
 		(property "Footprint" "PDB_LCSC:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
-			(at 93.98 173.99 0)
+			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2028,7 +2003,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Gates-and-Inverters_Texas-Instruments-Texas-Instruments-SN74LVC08APWR_C465737.html"
-			(at 93.98 176.53 0)
+			(at 93.98 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2039,7 +2014,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 158.75 0)
+			(at 93.98 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2050,7 +2025,7 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
-			(at 93.98 179.07 0)
+			(at 93.98 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2061,7 +2036,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC08APWR"
-			(at 93.98 181.61 0)
+			(at 93.98 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2072,7 +2047,7 @@
 			)
 		)
 		(property "LCSC Part" "C465737"
-			(at 93.98 184.15 0)
+			(at 93.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2082,52 +2057,52 @@
 				)
 			)
 		)
-		(pin "14"
-			(uuid "ec4f1a06-ad2f-4829-a707-3a74e2841dc4")
-		)
-		(pin "13"
-			(uuid "7a7890c3-54b9-4699-bfc3-d5f8735e4616")
-		)
-		(pin "12"
-			(uuid "0b3fc731-1edb-401b-92e7-7188bffb6464")
-		)
-		(pin "11"
-			(uuid "51bcfaac-859f-4091-8599-da6833beead1")
-		)
 		(pin "10"
-			(uuid "8cad8a53-d4c4-4163-8ac7-21f295ae89a5")
-		)
-		(pin "9"
-			(uuid "27601805-532b-4135-8fa8-7bbcf7aaa732")
-		)
-		(pin "8"
-			(uuid "fce02249-1508-4e03-84dd-07ea69580bcb")
-		)
-		(pin "7"
-			(uuid "c4adbb31-ab6d-45fa-9538-b1d052ab92ad")
-		)
-		(pin "6"
-			(uuid "55aa8ef8-8a44-4e85-8403-120cbefc53a6")
-		)
-		(pin "5"
-			(uuid "fbd18e70-d5cb-4eda-9591-acff6d6dafbf")
-		)
-		(pin "4"
-			(uuid "d01f4475-66ff-4068-ac5f-d1bd84c85a21")
-		)
-		(pin "3"
-			(uuid "b2fb4b9e-7ba6-42bd-9a48-38d0142dc16a")
+			(uuid "46632821-0e60-4f66-ad43-1ae7c359040b")
 		)
 		(pin "2"
-			(uuid "810f601f-6856-4847-880a-54c241316692")
+			(uuid "af7896d4-a02e-4322-8f24-264fdfc7a7f1")
+		)
+		(pin "14"
+			(uuid "bffbdc24-3f5c-433a-a671-189f44942c5b")
+		)
+		(pin "3"
+			(uuid "307151ee-e832-4b8a-8967-778dc95ceabc")
 		)
 		(pin "1"
-			(uuid "301a1cf5-bc50-476b-a029-68eac0b1e420")
+			(uuid "2a984142-eeee-4a78-a6e3-4259975c852a")
+		)
+		(pin "7"
+			(uuid "b95ac900-5eeb-4140-9ece-f7bf18468635")
+		)
+		(pin "8"
+			(uuid "03ff9a63-27f3-4f0f-9a84-3c7c7a915ca1")
+		)
+		(pin "11"
+			(uuid "6354d461-3974-4fe9-b8f3-81b8a34adf02")
+		)
+		(pin "12"
+			(uuid "9bc8bffb-2156-4226-b479-7626ae3c204c")
+		)
+		(pin "5"
+			(uuid "2d4d450f-c056-4a24-90d7-b97c531054dc")
+		)
+		(pin "9"
+			(uuid "37b79454-2204-4cbf-b8c6-ead62e29a62d")
+		)
+		(pin "4"
+			(uuid "e2369047-5a3e-40ca-851a-06860be33779")
+		)
+		(pin "6"
+			(uuid "639befda-56a1-4579-8a27-c00c01dd2de9")
+		)
+		(pin "13"
+			(uuid "16ebd60e-910d-4846-8e5b-3fff9fb9b08c")
 		)
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/38c7de8f-1e1e-425a-b64c-5257d5cddadc"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2213,7 +2188,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 134.62 0)
+		(at 93.98 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2223,7 +2198,7 @@
 		(dnp no)
 		(uuid "7a458bbb-e033-4cec-8b8d-baca456a03d4")
 		(property "Reference" "#PWR06"
-			(at 93.98 140.97 0)
+			(at 93.98 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2234,7 +2209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 136.398 0)
+			(at 97.79 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2244,7 +2219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 134.62 0)
+			(at 93.98 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2255,7 +2230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 134.62 0)
+			(at 93.98 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2266,7 +2241,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 134.62 0)
+			(at 93.98 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2289,8 +2264,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PDB_LSCS_Libs:SN74LVC08APWR")
-		(at 93.98 118.11 0)
+		(lib_id "PDB_LCSC_Libs:KF301-5.0-2P")
+		(at 62.23 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2298,9 +2273,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "81501aa6-6e1e-44ae-bb05-a351a342fcbb")
-		(property "Reference" "U3"
-			(at 100.838 128.524 0)
+		(fields_autoplaced yes)
+		(uuid "7d7bb1e9-dff6-46e1-9158-acf6b1299215")
+		(property "Reference" "U1"
+			(at 67.31 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2310,8 +2286,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74LVC08APWR"
-			(at 100.838 131.064 0)
+		(property "Value" "E-STOP Screw Terminal"
+			(at 67.31 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2321,8 +2297,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PDB_LCSC:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
-			(at 93.98 133.35 0)
+		(property "Footprint" "PDB_LCSC:CONN-TH_P5.00_KF301-5.0-2P"
+			(at 62.23 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2332,8 +2308,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Gates-and-Inverters_Texas-Instruments-Texas-Instruments-SN74LVC08APWR_C465737.html"
-			(at 93.98 135.89 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF301-5-0-2P_C474881.html"
+			(at 62.23 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +2320,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 118.11 0)
+			(at 62.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2354,8 +2330,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 93.98 138.43 0)
+		(property "Manufacturer" "KEFA(科发)"
+			(at 62.23 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2365,8 +2341,8 @@
 				)
 			)
 		)
-		(property "MPN" "SN74LVC08APWR"
-			(at 93.98 140.97 0)
+		(property "MPN" "KF301-5.0-2P"
+			(at 62.23 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2376,8 +2352,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C465737"
-			(at 93.98 143.51 0)
+		(property "LCSC Part" "C474881"
+			(at 62.23 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2386,53 +2362,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "14"
-			(uuid "f7d729a1-1a8a-4766-9237-5f1ff5a3ffbb")
-		)
-		(pin "13"
-			(uuid "c0d6c0a3-3f5c-4cad-9dad-1809424e8769")
-		)
-		(pin "12"
-			(uuid "e6ba6a23-f9aa-4740-b6fb-c2a7102bddca")
-		)
-		(pin "11"
-			(uuid "e1231a8f-3b3c-4548-b436-a24374712612")
-		)
-		(pin "10"
-			(uuid "3a98cbde-2a7a-47c3-958e-cd6204b47eaf")
-		)
-		(pin "9"
-			(uuid "d61bdd39-2c14-4562-b9e0-03e7b09bd65c")
-		)
-		(pin "8"
-			(uuid "4ee7c326-b4c6-4d9f-9b3d-b2862c82d398")
-		)
-		(pin "7"
-			(uuid "2cdb1a04-e51e-4222-9ebe-22700583dafb")
-		)
-		(pin "6"
-			(uuid "ae1ee59b-ff9e-447f-81f6-4dbe406cb290")
-		)
-		(pin "5"
-			(uuid "15718c8e-1af3-4529-8b7a-e045f001817b")
-		)
-		(pin "4"
-			(uuid "ce7e21b5-0851-4eff-849c-7c6eaebfe6b3")
-		)
-		(pin "3"
-			(uuid "683822d7-dec9-41dd-828d-22460de33a31")
 		)
 		(pin "2"
-			(uuid "884d9dea-3c4a-4cdb-9290-15e0e6d2616e")
+			(uuid "313de68e-69cc-4d85-b11a-a5245e3f29ad")
 		)
 		(pin "1"
-			(uuid "3ec0bba0-6e1d-4aff-b434-df8fc42b2705")
+			(uuid "9f41e4e3-fd6c-4e44-953a-29060d8de43d")
 		)
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/38c7de8f-1e1e-425a-b64c-5257d5cddadc"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2518,7 +2458,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 93.98 0)
+		(at 93.98 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2528,7 +2468,7 @@
 		(dnp no)
 		(uuid "86744946-4421-46b4-ba33-27126f1839f5")
 		(property "Reference" "#PWR04"
-			(at 93.98 100.33 0)
+			(at 93.98 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,7 +2479,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 95.758 0)
+			(at 97.79 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2549,7 +2489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 93.98 0)
+			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 93.98 0)
+			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,7 +2511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 93.98 0)
+			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2594,8 +2534,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PDB_LSCS_Libs:KF301-5.0-2P")
-		(at 62.23 44.45 0)
+		(lib_id "PDB_LCSC_Libs:SN74LVC08APWR")
+		(at 93.98 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2604,9 +2544,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92f3c57f-75cb-4016-9f47-c94bea1177b3")
-		(property "Reference" "U1"
-			(at 67.31 43.1799 0)
+		(uuid "9901d0d4-e910-4700-9fb6-35575b96ce12")
+		(property "Reference" "U4"
+			(at 96.1233 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2616,8 +2556,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw Terminal"
-			(at 67.31 45.7199 0)
+		(property "Value" "SN74LVC08APWR"
+			(at 96.1233 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2627,8 +2567,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PDB_LCSC:CONN-TH_P5.00_KF301-5.0-2P"
-			(at 62.23 53.34 0)
+		(property "Footprint" "PDB_LCSC:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+			(at 93.98 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2638,8 +2578,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF301-5-0-2P_C474881.html"
-			(at 62.23 55.88 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Gates-and-Inverters_Texas-Instruments-Texas-Instruments-SN74LVC08APWR_C465737.html"
+			(at 93.98 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,7 +2590,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 44.45 0)
+			(at 93.98 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2660,8 +2600,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KEFA(科发)"
-			(at 62.23 58.42 0)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 93.98 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2671,8 +2611,8 @@
 				)
 			)
 		)
-		(property "MPN" "KF301-5.0-2P"
-			(at 62.23 60.96 0)
+		(property "MPN" "SN74LVC08APWR"
+			(at 93.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,8 +2622,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C474881"
-			(at 62.23 63.5 0)
+		(property "LCSC Part" "C465737"
+			(at 93.98 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,16 +2633,52 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "4e6a4856-7cd2-4f90-8a2a-f61d1da7abdb")
+		(pin "10"
+			(uuid "a6bd4601-7f88-4097-8323-be8a50340e66")
 		)
 		(pin "2"
-			(uuid "aa8b36c5-219c-42d0-b7b8-28e28f08fe02")
+			(uuid "4712e6d4-6db7-494c-94c1-581d484ae588")
+		)
+		(pin "14"
+			(uuid "4ea5d19e-ec4c-495f-a7b8-7ef27bc063df")
+		)
+		(pin "3"
+			(uuid "a9ae4957-c668-4ff7-9254-e87dd5f0780d")
+		)
+		(pin "1"
+			(uuid "d3268674-d85b-49eb-9454-87ce2f3e6b62")
+		)
+		(pin "7"
+			(uuid "76b172e4-e075-4909-8701-c7e4448a9c7f")
+		)
+		(pin "8"
+			(uuid "81692e24-b0ed-421e-a4ad-e2093f373abb")
+		)
+		(pin "11"
+			(uuid "e7c708da-9631-4ba3-9711-b3ec66d0c79a")
+		)
+		(pin "12"
+			(uuid "a17d4878-64ef-4e08-b0a2-50ed3ca524e2")
+		)
+		(pin "5"
+			(uuid "008fbe62-ded2-434c-9a22-ebc40a6fbd94")
+		)
+		(pin "9"
+			(uuid "5a0b9cc4-4570-4390-a437-bef739dc64e6")
+		)
+		(pin "4"
+			(uuid "7d2c69b0-3f2a-464c-acea-5e6acb487ef4")
+		)
+		(pin "6"
+			(uuid "25bdeeaa-134b-4e17-985c-2dc6de7f9b2d")
+		)
+		(pin "13"
+			(uuid "0da1f353-dfc2-4d88-8644-7a35ff8b0914")
 		)
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/38c7de8f-1e1e-425a-b64c-5257d5cddadc"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2781,83 +2757,6 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/38c7de8f-1e1e-425a-b64c-5257d5cddadc"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aaf9eb34-e4cf-438f-bc6a-fb101cc8046f")
-		(property "Reference" "#PWR08"
-			(at 93.98 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 177.292 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5192dc3f-adad-4bb3-977e-fe05575f63e5")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/38c7de8f-1e1e-425a-b64c-5257d5cddadc"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)

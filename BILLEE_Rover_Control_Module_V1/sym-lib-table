@@ -1,5 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "PDB_LSCS_Libs") (type "KiCad") (uri "${KIPRJMOD}/lib") (options "") (descr ""))
-	(lib (name "RP2350-A") (type "KiCad") (uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350/MCU_RaspberryPi_RP2350.kicad_sym") (options "") (descr ""))
+	(lib (name "PDB_LCSC_Libs") (type "KiCad") (uri "${KIPRJMOD}/lib") (options "") (descr ""))
 )
