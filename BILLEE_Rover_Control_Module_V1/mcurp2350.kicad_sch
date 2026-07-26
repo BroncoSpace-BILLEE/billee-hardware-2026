@@ -5439,6 +5439,15 @@
 		(at 151.13 137.16)
 		(uuid "f9cd5e88-5d0d-4a81-addb-906b5eb1bf7c")
 	)
+	(bus_entry
+		(at 195.58 130.81)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30163207-2751-4912-a2c1-8516158c1b92")
+	)
 	(wire
 		(pts
 			(xy 372.11 120.65) (xy 372.11 125.73)
