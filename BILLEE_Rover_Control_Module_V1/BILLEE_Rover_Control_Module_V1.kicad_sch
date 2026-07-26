@@ -11264,7 +11264,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "mcurp2350.kicad_sch"
 			(at 604.012 211.2776 0)
 			(show_name no)
 			(do_not_autoplace no)
