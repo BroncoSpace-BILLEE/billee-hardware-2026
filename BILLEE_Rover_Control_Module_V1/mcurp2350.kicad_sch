@@ -5439,15 +5439,6 @@
 		(at 151.13 137.16)
 		(uuid "f9cd5e88-5d0d-4a81-addb-906b5eb1bf7c")
 	)
-	(bus_entry
-		(at 195.58 130.81)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30163207-2751-4912-a2c1-8516158c1b92")
-	)
 	(wire
 		(pts
 			(xy 372.11 120.65) (xy 372.11 125.73)
@@ -5837,16 +5828,6 @@
 			(type default)
 		)
 		(uuid "30b8a778-6a1d-4b8a-b5b3-90d8eb716a81")
-	)
-	(wire
-		(pts
-			(xy 151.13 116.84) (xy 168.91 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3117f75a-7463-4820-a5d8-f93d1e986a51")
 	)
 	(wire
 		(pts
@@ -8260,7 +8241,7 @@
 	)
 	(global_label "BUFF_E_STOP_STATUS"
 		(shape input)
-		(at 176.53 116.84 0)
+		(at 151.13 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8270,7 +8251,7 @@
 		)
 		(uuid "51e2eec6-9185-4709-99e1-cec2d70cb2c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8956 116.84 0)
+			(at 174.4956 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,184 +10999,6 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/46ee40fa-f724-4b58-ad1f-c10301d1abb5"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 172.72 116.84 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "454bf47d-8850-4fec-a5ca-6e8efd14d9cc")
-		(property "Reference" "R24"
-			(at 172.72 114.808 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 172.72 119.126 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.974 115.824 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 172.72 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Availability" ""
-			(at 172.72 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Check_prices" ""
-			(at 172.72 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" ""
-			(at 172.72 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 172.72 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 172.72 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 172.72 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 172.72 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 172.72 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 172.72 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6f1029b-7b62-4106-b5a5-3d823b0dc685")
-		)
-		(pin "2"
-			(uuid "a3bb66cd-3619-49df-a8b8-4f3caf48dd22")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/46ee40fa-f724-4b58-ad1f-c10301d1abb5"
-					(reference "R24")
 					(unit 1)
 				)
 			)
