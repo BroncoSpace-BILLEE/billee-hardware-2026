@@ -87,4 +87,9 @@
 	(fp_line (start 3.50 -3.50) (end 3.50 3.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 3.50 3.50) (end -3.50 3.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -3.50 3.50) (end -3.50 -3.50) (layer F.CrtYd) (width 0.05))
+	(model "${KIPRJMOD}/lib/PDB_LCSC.3dshapes/QFN-60_L7.0-W7.0-P0.40-TL-EP3.4.wrl"
+		(offset (xyz 0.000 0.000 0.000))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )
