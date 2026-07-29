@@ -11284,6 +11284,52 @@
 		)
 	)
 	(sheet
+		(at 524.51 135.89)
+		(size 40.64 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "872d5070-71c7-4101-935e-3401be93247f")
+		(property "Sheetname" "gate driver + mosfet"
+			(at 524.51 135.1784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gate driver + mosfet.kicad_sch"
+			(at 524.51 212.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 602.615 40.64)
 		(size 93.98 76.2)
 		(exclude_from_sim no)
