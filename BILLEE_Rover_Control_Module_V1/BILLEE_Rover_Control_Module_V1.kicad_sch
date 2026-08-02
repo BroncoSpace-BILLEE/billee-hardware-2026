@@ -299,7 +299,7 @@
 	)
 	(rectangle
 		(start 278.13 101.6)
-		(end 297.815 179.705)
+		(end 297.815 182.245)
 		(stroke
 			(width 0)
 			(type solid)
@@ -745,6 +745,16 @@
 			)
 		)
 		(uuid "088991c2-049a-44f1-bacc-e08db86f5aff")
+	)
+	(text "Ubiquiti Horn"
+		(exclude_from_sim no)
+		(at 288.29 180.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ded0779-a91c-419c-96e2-4834653d81a2")
 	)
 	(text "COMPUTA..DO.."
 		(exclude_from_sim no)
