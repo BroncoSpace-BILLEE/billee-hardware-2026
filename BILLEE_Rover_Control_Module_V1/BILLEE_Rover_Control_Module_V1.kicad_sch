@@ -781,7 +781,7 @@
 	)
 	(text "Ubiquiti Antenna"
 		(exclude_from_sim no)
-		(at 287.528 121.158 0)
+		(at 288.29 121.158 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -895,7 +895,7 @@
 	)
 	(text "Coax\n"
 		(exclude_from_sim no)
-		(at 276.098 110.744 0)
+		(at 275.336 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1478,7 +1478,7 @@
 	)
 	(polyline
 		(pts
-			(xy 279.4 111.76) (xy 272.415 111.76)
+			(xy 278.13 111.76) (xy 272.415 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6388,7 +6388,7 @@
 		)
 	)
 	(image
-		(at 285.75 111.76)
+		(at 288.29 111.125)
 		(scale 0.119195)
 		(uuid "0a7af2e6-2ab9-494b-b5ca-e3685e2a82cf")
 		(data "iVBORw0KGgoAAAANSUhEUgAABLAAAAXcCAYAAAAyYHdaAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
