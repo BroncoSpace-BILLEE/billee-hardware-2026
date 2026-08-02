@@ -726,7 +726,7 @@
 		)
 		(uuid "fb665a87-5fe9-43ec-9f85-468c764f00c4")
 	)
-	(text "XT-60"
+	(text "XT-90"
 		(exclude_from_sim no)
 		(at 353.314 34.036 0)
 		(effects
@@ -1181,7 +1181,7 @@
 		)
 		(uuid "3d7cc05b-7821-4cce-9f72-3230e147b64b")
 	)
-	(text_box "Design Revisions:\n1. Lower UVLO by a little bit because of series impedance (19V is ok since firmware will trigger fault trip with GPIO at 21v\n2. Change Battery Connectors to XT-90s\n3. Simulate regulators\n4. Add reverse circuit protection using PMOS and Diode"
+	(text_box "Design Revisions:\n1. Lower UVLO by a little bit because of series impedance (19V is ok since firmware will trigger fault trip with GPIO at 21v\n2. Change Battery Connectors to XT-90s [DONE]\n3. Simulate regulators\n4. Add reverse circuit protection using PMOS and Diode"
 		(exclude_from_sim no)
 		(at 246.38 217.805 0)
 		(size 120.015 41.1583)

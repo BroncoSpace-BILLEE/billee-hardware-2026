@@ -656,391 +656,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LT8612EUDE#TRPBF_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LT8612EUDE#TRPBF"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PDB_LCSC:QFN-28_L6.0-W3.0-P0.50-BL-EP"
-				(at 0 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_Analog-Devices-ADI-LINEAR-LT8612EUDE-TRPBF_C462617.html"
-				(at 0 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "ADI(亚德诺)"
-				(at 0 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "LT8612EUDE#TRPBF"
-				(at 0 -33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C462617"
-				(at 0 -35.56 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "DC-DC Converters"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LT8612EUDE#TRPBF_1_0_1"
-				(rectangle
-					(start -11.43 19.05)
-					(end 11.43 -19.05)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -9.652 17.018)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LT8612EUDE#TRPBF_1_1_1"
-				(pin passive line
-					(at -13.97 2.54 0)
-					(length 2.54)
-					(name "SYNC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -7.62 0)
-					(length 2.54)
-					(name "TR/SS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -21.59 90)
-					(length 2.54)
-					(name "RT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 5.08 0)
-					(length 2.54)
-					(name "EN/UV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 13.97 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -21.59 90)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -21.59 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 11.43 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 16.51 180)
-					(length 2.54)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -12.7 0)
-					(length 2.54)
-					(name "INTVCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 8.89 180)
-					(length 2.54)
-					(name "BIAS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -5.08 180)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -8.89 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -21.59 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PDB_LCSC_Libs:INA780BIDEKR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1584,6 +1199,391 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PDB_LCSC_Libs:LT8612EUDE#TRPBF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LT8612EUDE#TRPBF"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PDB_LCSC:QFN-28_L6.0-W3.0-P0.50-BL-EP"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_Analog-Devices-ADI-LINEAR-LT8612EUDE-TRPBF_C462617.html"
+				(at 0 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ADI(亚德诺)"
+				(at 0 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LT8612EUDE#TRPBF"
+				(at 0 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C462617"
+				(at 0 -35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC-DC Converters"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LT8612EUDE#TRPBF_0_1"
+				(rectangle
+					(start -11.43 19.05)
+					(end 11.43 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -9.652 17.018)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LT8612EUDE#TRPBF_1_1"
+				(pin passive line
+					(at -13.97 2.54 0)
+					(length 2.54)
+					(name "SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -7.62 0)
+					(length 2.54)
+					(name "TR/SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -21.59 90)
+					(length 2.54)
+					(name "RT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 5.08 0)
+					(length 2.54)
+					(name "EN/UV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 13.97 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -21.59 90)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -21.59 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 11.43 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 16.51 180)
+					(length 2.54)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -12.7 0)
+					(length 2.54)
+					(name "INTVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 8.89 180)
+					(length 2.54)
+					(name "BIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -8.89 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -21.59 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2216,7 +2216,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PDB_LCSC_Libs:XT60PW-M"
+		(symbol "PDB_LCSC_Libs:XT90PW-M.G.Y"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2232,7 +2232,7 @@
 					)
 				)
 			)
-			(property "Value" "XT60PW-M"
+			(property "Value" "XT90PW-M.G.Y"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2242,7 +2242,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PDB_LCSC:CONN-TH_XT60PW-M"
+			(property "Footprint" "PDB_LCSC:CONN-TH_XT90PW-M.G.Y"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2253,7 +2253,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3040689.pdf"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2286,7 +2286,7 @@
 					)
 				)
 			)
-			(property "MPN" "XT60PW-M"
+			(property "MPN" "XT90PW-M.G.Y"
 				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2297,7 +2297,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C98732"
+			(property "LCSC Part" "C3040689"
 				(at 0 -24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2308,21 +2308,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Power Connectors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "XT60PW-M_0_1"
+			(symbol "XT90PW-M.G.Y_0_1"
 				(rectangle
-					(start -2.54 3.81)
-					(end 5.08 -3.81)
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -2332,7 +2321,7 @@
 					)
 				)
 				(circle
-					(center -1.27 2.54)
+					(center 0 2.54)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -2343,43 +2332,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 -6.35 90)
+					(at 0 -6.35 90)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -2397,7 +2350,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 3.81 6.35 270)
+					(at 2.54 -6.35 90)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -2407,6 +2360,44 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "XT90PW-M.G.Y_1_1"
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3023,7 +3014,7 @@
 		)
 		(uuid "6454fce6-f372-4e47-8202-94f1175831ab")
 	)
-	(text "Logic XT-60"
+	(text "Logic XT-90"
 		(exclude_from_sim no)
 		(at 14.224 20.828 0)
 		(effects
@@ -3341,12 +3332,6 @@
 		(uuid "08f9c5af-351a-4431-b6bb-0f454e98d2ef")
 	)
 	(junction
-		(at 46.99 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e52ea7b-b6bc-48a1-a694-80befb81c163")
-	)
-	(junction
 		(at 147.32 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3357,12 +3342,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13c403ab-7611-4b6e-a86a-0372404ff286")
-	)
-	(junction
-		(at 55.88 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1939bfa3-9734-45c0-bee8-d17db620ad46")
 	)
 	(junction
 		(at 295.91 41.91)
@@ -3503,6 +3482,12 @@
 		(uuid "97135f7b-652d-4d5e-a746-92783a2bb5dc")
 	)
 	(junction
+		(at 49.53 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "988dfa04-9e17-4865-a928-a4e7d196657c")
+	)
+	(junction
 		(at 316.23 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3591,6 +3576,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc0a703d-be82-4685-bbff-25366f2ee277")
+	)
+	(junction
+		(at 53.34 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfe120b9-8049-4dbd-9b14-05788f96ce8a")
 	)
 	(junction
 		(at 273.05 74.93)
@@ -4210,7 +4201,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 31.75) (xy 46.99 36.83)
+			(xy 49.53 31.75) (xy 49.53 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4300,7 +4291,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 29.21) (xy 46.99 29.21)
+			(xy 41.91 29.21) (xy 49.53 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4370,13 +4361,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 24.13) (xy 58.42 36.83)
+			(xy 49.53 36.83) (xy 53.34 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56ec2446-3dec-4d30-97e7-efc6de4df3f2")
+		(uuid "536464e1-76e9-4cf7-8aa6-0d4eaa639ae1")
 	)
 	(wire
 		(pts
@@ -4427,16 +4418,6 @@
 			(type default)
 		)
 		(uuid "5eeb77e1-50ba-46b4-b708-23877d9aa872")
-	)
-	(wire
-		(pts
-			(xy 55.88 36.83) (xy 58.42 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ad386f-08f0-4097-b79e-abd9744820e1")
 	)
 	(wire
 		(pts
@@ -4687,6 +4668,16 @@
 			(type default)
 		)
 		(uuid "9b7b7395-e7ac-4d92-b8d3-db705a8f83ec")
+	)
+	(wire
+		(pts
+			(xy 53.34 36.83) (xy 55.88 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0d173c-0931-4f0c-bb34-07b4e191ee7e")
 	)
 	(wire
 		(pts
@@ -5080,16 +5071,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 36.83) (xy 55.88 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d89f25fb-c568-42d8-afc2-2d9979fc1579")
-	)
-	(wire
-		(pts
 			(xy 114.3 38.1) (xy 133.35 38.1)
 		)
 		(stroke
@@ -5107,16 +5088,6 @@
 			(type default)
 		)
 		(uuid "dbeecb87-a3ff-49c3-82fe-aea9f4db1bd4")
-	)
-	(wire
-		(pts
-			(xy 55.88 24.13) (xy 58.42 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd8ee030-c017-4b6f-8d99-eae5f2a960b3")
 	)
 	(wire
 		(pts
@@ -6409,7 +6380,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LT8612EUDE#TRPBF_1")
 		(lib_id "PDB_LCSC_Libs:LT8612EUDE#TRPBF")
 		(at 273.05 203.2 0)
 		(unit 1)
@@ -7087,6 +7057,127 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PDB_LCSC_Libs:XT90PW-M.G.Y")
+		(at 53.34 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17e52231-25b0-4f01-8119-7c50f233da46")
+		(property "Reference" "CN1"
+			(at 58.42 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT90PW-M.G.Y"
+			(at 58.42 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PDB_LCSC:CONN-TH_XT90PW-M.G.Y"
+			(at 53.34 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3040689.pdf"
+			(at 53.34 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 53.34 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XT90PW-M.G.Y"
+			(at 53.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3040689"
+			(at 53.34 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "cc23ef0c-9a01-4930-b595-f6169d3c9fed")
+		)
+		(pin "4"
+			(uuid "0706ab3b-f861-45d3-bf60-fd2f0ff94f33")
+		)
+		(pin "1"
+			(uuid "999e1c4e-bbea-4afd-b258-d7a0858d953f")
+		)
+		(pin "2"
+			(uuid "1197599d-b51f-4e72-b395-4a76ff2baf03")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -11518,7 +11609,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 46.99 36.83 180)
+		(at 49.53 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11529,7 +11620,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b47cf58-385c-4e71-9aa7-c87379ae43a5")
 		(property "Reference" "#FLG03"
-			(at 46.99 38.735 0)
+			(at 49.53 38.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11540,7 +11631,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 46.99 41.91 0)
+			(at 49.53 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11550,7 +11641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 36.83 0)
+			(at 49.53 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11561,7 +11652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 36.83 0)
+			(at 49.53 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11572,7 +11663,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 46.99 36.83 0)
+			(at 49.53 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11968,127 +12059,6 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PDB_LCSC_Libs:XT60PW-M")
-		(at 52.07 30.48 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87fa8635-0724-4e5a-ab0f-e96a387168c3")
-		(property "Reference" "CN2"
-			(at 58.42 31.7501 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 58.42 29.2101 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PDB_LCSC:CONN-TH_XT60PW-M"
-			(at 52.07 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
-			(at 52.07 13.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 52.07 11.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XT60PW-M"
-			(at 52.07 8.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98732"
-			(at 52.07 6.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "37d7f106-8588-421e-aad8-ce593560ba1d")
-		)
-		(pin "2"
-			(uuid "25b25053-686f-420a-abcc-6bb637615047")
-		)
-		(pin "3"
-			(uuid "3f0a7886-5181-4431-a293-e2df6e47bde0")
-		)
-		(pin "4"
-			(uuid "b0ed7d43-8339-441b-b5fa-1688c24f1f97")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -12856,7 +12826,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LT8612EUDE#TRPBF_1")
 		(lib_id "PDB_LCSC_Libs:LT8612EUDE#TRPBF")
 		(at 271.78 53.34 0)
 		(unit 1)
@@ -13982,7 +13951,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LT8612EUDE#TRPBF_1")
 		(lib_id "PDB_LCSC_Libs:LT8612EUDE#TRPBF")
 		(at 269.24 129.54 0)
 		(unit 1)
@@ -15194,7 +15162,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7576bd6-361d-4a2e-87b7-2dafe5fb1db1")
 		(property "Reference" "#PWR010"
 			(at 55.88 43.18 0)
@@ -15208,7 +15175,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 41.91 0)
+			(at 59.436 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16001,7 +15968,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 41.91 33.782 0)
+			(at 35.306 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
