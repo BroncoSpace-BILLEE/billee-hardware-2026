@@ -436,7 +436,7 @@
         "uuid": "e701dc98-f022-461d-84b5-6b2dd8d89d58"
       }
     ],
-    "used_designators": "Q1,U12,R24,R60,R70-71,#PWR110-114,C45-48",
+    "used_designators": "U11-14,U26-38,D2-9,#PWR7,#PWR69,#PWR71,#PWR77-89,#PWR110-114,#PWR116-171,C28-34,C45-61,#FLG5,#FLG7-25,R24,R48-58,R60,R70-71,R73-89,CN3-12,Q1-8",
     "variants": []
   },
   "sheets": [
@@ -445,16 +445,16 @@
       "BILLEE_Rover_Control_Module_V1"
     ],
     [
+      "e37b5ac2-398e-41bf-8fb6-2ff87cb1df37",
+      "Logic Power"
+    ],
+    [
       "46ee40fa-f724-4b58-ad1f-c10301d1abb5",
-      "MCU RP2350A"
+      "RP2350A"
     ],
     [
       "38c7de8f-1e1e-425a-b64c-5257d5cddadc",
-      "E-STOP Circuit"
-    ],
-    [
-      "e37b5ac2-398e-41bf-8fb6-2ff87cb1df37",
-      "Power"
+      "E-STOP / Drivetrain / Arm / Science Breakout"
     ],
     [
       "872d5070-71c7-4101-935e-3401be93247f",
