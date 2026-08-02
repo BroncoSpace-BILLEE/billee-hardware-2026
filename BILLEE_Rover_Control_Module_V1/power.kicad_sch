@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "e2b5022e-b740-43ed-89e6-c1071eddbe65")
-	(paper "A2")
+	(paper "A3")
 	(title_block
 		(title "BILLEE_RCM")
 		(date "2026-08-01")
@@ -2964,7 +2964,7 @@
 	)
 	(rectangle
 		(start 13.335 13.97)
-		(end 359.41 318.77)
+		(end 359.41 244.475)
 		(stroke
 			(width 0)
 			(type solid)

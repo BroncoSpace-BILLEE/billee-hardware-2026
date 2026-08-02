@@ -1171,6 +1171,26 @@
 		)
 		(uuid "3d7cc05b-7821-4cce-9f72-3230e147b64b")
 	)
+	(text_box "Design Revisions:\n1. Lower UVLO by a little bit because of series impedance (19V is ok since firmware will trigger fault trip with GPIO at 21v\n2. Change Battery Connectors to XT-90s\n3. Simulate regulators\n4. Add reverse circuit protection using PMOS and Diode"
+		(exclude_from_sim no)
+		(at 246.38 217.805 0)
+		(size 120.015 41.1583)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left top)
+		)
+		(uuid "6ab59c1a-55fb-4c45-961f-1908b218e780")
+	)
 	(text_box "Github Repo"
 		(exclude_from_sim no)
 		(at 243.205 20.955 0)

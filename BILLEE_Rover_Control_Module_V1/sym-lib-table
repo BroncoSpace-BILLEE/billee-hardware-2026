@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "PDB_LCSC_Libs") (type "KiCad") (uri "${KIPRJMOD}/lib") (options "") (descr ""))
+	(lib (name "PDB_LCSC_Libs") (type "KiCad") (uri "${KIPRJMOD}/lib/PDB_LCSC.kicad_sym") (options "") (descr ""))
 )
