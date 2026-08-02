@@ -8,3 +8,5 @@ source kicad-venv/Scripts/activate
 
 On Linux
 source kicad-venv/bin/activate
+
+Be careful as running the script will overwrite your internal libraries, so custom symbols will be overwritten.

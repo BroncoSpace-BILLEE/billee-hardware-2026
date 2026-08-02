@@ -1626,7 +1626,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 11.43 0)
+			(at 11.176 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1636,7 +1636,7 @@
 			)
 		)
 		(property "Value" "LTC7001IMSE#PBF"
-			(at 0 -11.43 0)
+			(at 16.256 -14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1734,6 +1734,7 @@
 					(type background)
 				)
 			)
+<<<<<<< Updated upstream
 			(circle
 				(center -8.89 11.43)
 				(radius 0.38)
@@ -1745,6 +1746,8 @@
 					(type none)
 				)
 			)
+=======
+>>>>>>> Stashed changes
 			(pin unspecified line
 				(at -12.7 8.89 0)
 				(length 2.54)
@@ -1764,7 +1767,11 @@
 				)
 			)
 			(pin unspecified line
+<<<<<<< Updated upstream
 				(at -12.7 6.35 0)
+=======
+				(at -12.7 -6.35 0)
+>>>>>>> Stashed changes
 				(length 2.54)
 				(name "VCCUV"
 					(effects
@@ -1800,7 +1807,11 @@
 				)
 			)
 			(pin unspecified line
+<<<<<<< Updated upstream
 				(at -12.7 -10.16 0)
+=======
+				(at -12.7 2.54 0)
+>>>>>>> Stashed changes
 				(length 2.54)
 				(name "INP"
 					(effects
@@ -1818,7 +1829,11 @@
 				)
 			)
 			(pin unspecified line
+<<<<<<< Updated upstream
 				(at -12.7 -7.62 0)
+=======
+				(at -12.7 -8.89 0)
+>>>>>>> Stashed changes
 				(length 2.54)
 				(name "OVLO"
 					(effects
@@ -1836,7 +1851,11 @@
 				)
 			)
 			(pin unspecified line
+<<<<<<< Updated upstream
 				(at 12.7 6.35 180)
+=======
+				(at 12.7 2.54 180)
+>>>>>>> Stashed changes
 				(length 2.54)
 				(name "TGDN"
 					(effects
@@ -1854,7 +1873,11 @@
 				)
 			)
 			(pin unspecified line
+<<<<<<< Updated upstream
 				(at 12.7 10.16 180)
+=======
+				(at 12.7 7.62 180)
+>>>>>>> Stashed changes
 				(length 2.54)
 				(name "TGUP"
 					(effects
@@ -1890,7 +1913,11 @@
 				)
 			)
 			(pin unspecified line
+<<<<<<< Updated upstream
 				(at 12.7 -2.54 180)
+=======
+				(at 12.7 -6.35 180)
+>>>>>>> Stashed changes
 				(length 2.54)
 				(name "BST"
 					(effects

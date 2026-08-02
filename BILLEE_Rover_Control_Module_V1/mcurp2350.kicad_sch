@@ -5,7 +5,10 @@
 	(uuid "2cac6809-88df-4e2c-bb62-719ce0b21476")
 	(paper "A3")
 	(title_block
-		(date "2026-07-21")
+		(title "BILLEE_RCM")
+		(date "2026-08-01")
+		(rev "A")
+		(company "Bronco STAR")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Socket"
