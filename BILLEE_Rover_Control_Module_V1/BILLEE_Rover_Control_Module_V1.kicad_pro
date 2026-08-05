@@ -657,7 +657,7 @@
         "uuid": "e701dc98-f022-461d-84b5-6b2dd8d89d58"
       }
     ],
-    "used_designators": "USB2,#FLG2-3,#FLG7,#FLG9-10,#FLG12,#FLG14-31,R90-92,#PWR114,#PWR123,#PWR183-184,U19",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
