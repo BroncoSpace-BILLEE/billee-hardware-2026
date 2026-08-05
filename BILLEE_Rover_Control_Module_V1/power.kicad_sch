@@ -771,7 +771,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -13.97 3.81 0)
 					(length 2.54)
 					(name "SH+"
@@ -789,7 +789,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -13.97 1.27 0)
 					(length 2.54)
 					(name "IN+"
@@ -807,7 +807,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 13.97 -7.62 180)
 					(length 2.54)
 					(name "A1"
@@ -825,7 +825,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 13.97 -5.08 180)
 					(length 2.54)
 					(name "A0"
@@ -843,7 +843,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 13.97 1.27 180)
 					(length 2.54)
 					(name "SDA"
@@ -861,7 +861,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 13.97 3.81 180)
 					(length 2.54)
 					(name "SCL"
@@ -879,7 +879,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin free line
 					(at -5.08 -13.97 90)
 					(length 2.54)
 					(name "NC"
@@ -897,61 +897,7 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 13.97 8.89 180)
-					(length 2.54)
-					(name "IS–"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -3.81 0)
-					(length 2.54)
-					(name "SH–"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -7.62 0)
-					(length 2.54)
-					(name "IN–"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
+				(pin output line
 					(at 13.97 -2.54 180)
 					(length 2.54)
 					(name "ALERT"
@@ -969,7 +915,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 3.81 13.97 270)
 					(length 2.54)
 					(name "VS"
@@ -987,7 +933,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -13.97 90)
 					(length 2.54)
 					(name "GND"
@@ -1005,7 +951,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -3.81 13.97 270)
 					(length 2.54)
 					(name "VBUS"
@@ -1023,7 +969,63 @@
 						)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "INA780BIDEKR_1_1"
+				(pin passive line
+					(at 13.97 8.89 180)
+					(length 2.54)
+					(name "IS–"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -3.81 0)
+					(length 2.54)
+					(name "SH–"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -7.62 0)
+					(length 2.54)
+					(name "IN–"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -13.97 8.89 0)
 					(length 2.54)
 					(name "IS+"
@@ -1170,7 +1172,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -3.81 1.27 0)
 					(length 2.54)
 					(name "1"
@@ -1188,7 +1190,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -3.81 -1.27 0)
 					(length 2.54)
 					(name "2"
@@ -1720,7 +1722,9 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "MCP9808T-E_MS_1_1"
+				(pin bidirectional line
 					(at -15.24 3.81 0)
 					(length 2.54)
 					(name "SDA"
@@ -1738,7 +1742,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 1.27 0)
 					(length 2.54)
 					(name "SCL"
@@ -1756,7 +1760,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -15.24 -1.27 0)
 					(length 2.54)
 					(name "Alert"
@@ -1774,7 +1778,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -15.24 -3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -1792,7 +1796,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -3.81 180)
 					(length 2.54)
 					(name "A2"
@@ -1810,7 +1814,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -1.27 180)
 					(length 2.54)
 					(name "A1"
@@ -1828,7 +1832,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 1.27 180)
 					(length 2.54)
 					(name "A0"
@@ -1846,7 +1850,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 3.81 180)
 					(length 2.54)
 					(name "VDD"
@@ -2331,45 +2335,9 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -6.35 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "XT90PW-M.G.Y_1_1"
-				(pin unspecified line
+				(pin power_in line
 					(at -3.81 1.27 0)
 					(length 2.54)
 					(name "+"
@@ -2387,7 +2355,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -3.81 -1.27 0)
 					(length 2.54)
 					(name "-"
@@ -2398,6 +2366,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 2.54 -6.35 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3278,6 +3282,12 @@
 		(uuid "117d4b64-30fe-4d17-97bb-660b9caa112e")
 	)
 	(junction
+		(at 49.53 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12dcd020-db46-487b-96e4-de4e94833d33")
+	)
+	(junction
 		(at 210.82 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3318,6 +3328,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39f083da-8d31-438b-861e-07c7f43098dd")
+	)
+	(junction
+		(at 41.91 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d7a2573-1cd3-4444-847a-7d0f66b825b3")
 	)
 	(junction
 		(at 60.96 123.19)
@@ -3404,10 +3420,16 @@
 		(uuid "7d889a82-fdca-4f82-990f-74a25c2a1d2b")
 	)
 	(junction
-		(at 41.91 29.21)
+		(at 69.85 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90d3d982-aa50-45ef-a0e1-19698f0a62cd")
+		(uuid "82f41b2b-d6f3-4c5d-a541-adb91601c7c5")
+	)
+	(junction
+		(at 306.07 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b4d1c29-1b22-4616-8eff-a1edbf389a5c")
 	)
 	(junction
 		(at 237.49 124.46)
@@ -3420,12 +3442,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97135f7b-652d-4d5e-a746-92783a2bb5dc")
-	)
-	(junction
-		(at 49.53 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "988dfa04-9e17-4865-a928-a4e7d196657c")
 	)
 	(junction
 		(at 316.23 191.77)
@@ -3510,12 +3526,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bab22505-7ba1-4226-b2cb-a3a353422fe4")
-	)
-	(junction
-		(at 308.61 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc0a703d-be82-4685-bbff-25366f2ee277")
 	)
 	(junction
 		(at 53.34 36.83)
@@ -3961,16 +3971,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 41.91) (xy 314.96 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "195d0722-b805-48db-a45a-c33bab9788f5")
-	)
-	(wire
-		(pts
 			(xy 147.32 195.58) (xy 171.45 195.58)
 		)
 		(stroke
@@ -4101,16 +4101,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 41.91) (xy 326.39 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf3bbdd-e65d-49c3-8259-8ed2873702df")
-	)
-	(wire
-		(pts
 			(xy 59.69 132.08) (xy 59.69 133.35)
 		)
 		(stroke
@@ -4171,7 +4161,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 100.33) (xy 323.85 100.33)
+			(xy 208.28 100.33) (xy 306.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4821,6 +4811,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 100.33) (xy 323.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c730e0d1-7ddb-465e-b286-512a5a1ea0f0")
+	)
+	(wire
+		(pts
 			(xy 287.02 191.77) (xy 297.18 191.77)
 		)
 		(stroke
@@ -5111,7 +5111,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 41.91) (xy 308.61 41.91)
+			(xy 303.53 41.91) (xy 326.39 41.91)
 		)
 		(stroke
 			(width 0)
@@ -14531,7 +14531,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 308.61 41.91 0)
+		(at 326.39 41.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14542,7 +14542,7 @@
 		(fields_autoplaced yes)
 		(uuid "27bbdf7f-d57a-4afb-a3d5-0abcbd5c2236")
 		(property "Reference" "#FLG01"
-			(at 308.61 40.005 0)
+			(at 328.295 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14553,17 +14553,18 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 308.61 36.83 0)
+			(at 330.2 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 41.91 0)
+			(at 326.39 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14574,7 +14575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 41.91 0)
+			(at 326.39 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14585,7 +14586,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 308.61 41.91 0)
+			(at 326.39 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17614,6 +17615,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 69.85 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "761d55ef-ef11-4d02-b80d-7405e3c98794")
+		(property "Reference" "#FLG03"
+			(at 71.755 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 73.66 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 69.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "357679f6-65eb-4b68-b270-a2b59b10386a")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 219.71 43.18 0)
 		(unit 1)
@@ -18027,84 +18107,6 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 49.53 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b47cf58-385c-4e71-9aa7-c87379ae43a5")
-		(property "Reference" "#FLG03"
-			(at 49.53 38.735 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 49.53 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 49.53 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "349ec5b7-3599-4536-a0b6-5d9d1475e837")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -21104,6 +21106,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bff81e04-7ce3-49b0-bbac-a0f84e64d3e5")
+		(property "Reference" "#FLG07"
+			(at 49.53 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.53 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c82a11dd-034c-4930-8e95-3a6a7eb7a89e")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 162.56 208.28 0)
 		(unit 1)
@@ -22627,7 +22707,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e9501c7b-b881-4937-81f4-7cc5c7b53f32")
+		(fields_autoplaced yes)
+		(uuid "e543ea95-bbd5-48ba-b278-af49ee3099ea")
 		(property "Reference" "#FLG02"
 			(at 41.91 31.115 0)
 			(hide yes)
@@ -22640,7 +22721,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 35.306 31.496 0)
+			(at 41.91 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22683,7 +22764,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3ef3122-9e86-4b4c-a8b1-032939ee3312")
+			(uuid "cbd46046-a65d-4ea8-aea7-bf357c985ca3")
 		)
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
@@ -23913,6 +23994,84 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 306.07 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7a9f315-e144-47f7-bd3a-e19fe3d0f65b")
+		(property "Reference" "#FLG09"
+			(at 306.07 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 306.07 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 306.07 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0dd4637-6327-40f2-b183-f664cdf8c3c3")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
