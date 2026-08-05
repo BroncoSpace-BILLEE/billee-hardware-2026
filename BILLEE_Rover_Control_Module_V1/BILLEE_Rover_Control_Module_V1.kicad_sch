@@ -1159,7 +1159,7 @@
 		)
 		(uuid "fa836317-c509-49d0-8b50-c0f27981d4b0")
 	)
-	(text_box "## System Summary\n\nThe PDB distributes three battery domains:\n\n| Domain | Input | Purpose |\n| --- | --- | --- |\n| Logic / Comms | 22.2 V / 6S LiPo | Jetson, network switch, 24V POE antenna, RP2350 housekeeping, aux output |\n| Drivetrain | 14.4 V / 4S LiPo | Six independently switched motor-controller outputs |\n| Arm / Science | 14.4 V / 4S LiPo | Independent ARM and SCIENCE switched outputs |\n\nThe PCB is controlled by the fprime-billee-rcm firmware, running Fprime-zephyr. A released build can be accessed within this same projects repo as a submodule."
+	(text_box "## System Summary\n\nThe PDB distributes three battery domains:\n\n| Domain | Input | Purpose |\n| --- | --- | --- |\n| Logic / Comms | 22.2 V / 6S LiPo | Jetson, network switch, 24V POE antenna, RP2350 housekeeping, aux output |\n| Drivetrain | 14.4 V / 4S LiPo | Six independently switched motor-controller outputs |\n| Arm / Science | 14.4 V / 4S LiPo | Independent ARM and SCIENCE switched outputs |\n\nThe PCB is controlled by the fprime-billee-rcm firmware, running Fprime-zephyr. A released build can be accessed within this projects repo as a submodule."
 		(exclude_from_sim no)
 		(at 313.69 153.035 0)
 		(size 266.7 51.6417)
@@ -1181,7 +1181,7 @@
 		)
 		(uuid "3d7cc05b-7821-4cce-9f72-3230e147b64b")
 	)
-	(text_box "Design Revisions:\n1. Lower UVLO by a little bit because of series impedance (19V is ok since firmware will trigger fault trip with GPIO at 21v\n2. Change Battery Connectors to XT-90s [DONE]\n3. Simulate regulators\n4. Add reverse circuit protection using PMOS and Diode"
+	(text_box "Design Revisions:\n1. Lower UVLO by a little bit because of series impedance (19V is ok since firmware will trigger fault trip with GPIO at 21v)[DONE]\n2. Change Battery Connectors to XT-90s [DONE]\n3. Simulate regulators\n4. Add reverse circuit protection"
 		(exclude_from_sim no)
 		(at 246.38 217.805 0)
 		(size 120.015 41.1583)
