@@ -1181,7 +1181,7 @@
 		)
 		(uuid "3d7cc05b-7821-4cce-9f72-3230e147b64b")
 	)
-	(text_box "Design Revisions:\n1. Lower UVLO by a little bit because of series impedance (19V is ok since firmware will trigger fault trip with GPIO at 21v)[DONE]\n2. Change Battery Connectors to XT-90s [DONE]\n3. Replace GPIO buffer with the one on SCALES [DONE]\n4. Add reverse circuit protection\n5. Simulate Everything"
+	(text_box "Design Revisions:\n1. Add Caps to outputs. SPEC THEM\n2. Add reverse circuit protections\n2. Simulate Everything"
 		(exclude_from_sim no)
 		(at 246.38 217.805 0)
 		(size 120.015 46.0654)
