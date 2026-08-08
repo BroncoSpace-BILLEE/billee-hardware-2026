@@ -1230,171 +1230,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PDB_LCSC_Libs:KF301-5.0-2P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "KF301-5.0-2P"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PDB_LCSC:CONN-TH_P5.00_KF301-5.0-2P"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF301-5-0-2P_C474881.html"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "KEFA(科发)"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "KF301-5.0-2P"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C474881"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Screw terminal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KF301-5.0-2P_0_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PDB_LCSC_Libs:LT8612EUDE#TRPBF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2396,6 +2231,209 @@
 						)
 					)
 					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PDB_LCSC_Libs:XT60PW-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XT60PW-M"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PDB_LCSC:CONN-TH_XT60PW-M"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "AMASS(艾迈斯)"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "XT60PW-M"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C98732"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Power Connectors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XT60PW-M_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XT60PW-M_1_1"
+				(pin power_in line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 3.81 6.35 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3482,6 +3520,12 @@
 		(uuid "08f9c5af-351a-4431-b6bb-0f454e98d2ef")
 	)
 	(junction
+		(at 334.01 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b02c5d7-d0fb-4258-b28b-8e4c28c47b7c")
+	)
+	(junction
 		(at 195.58 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3566,6 +3610,12 @@
 		(uuid "3fa4eff5-b68f-4d74-a42e-352cd3f961b6")
 	)
 	(junction
+		(at 346.71 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43d2620b-1d43-4ebb-9ab6-e68101b58b62")
+	)
+	(junction
 		(at 327.66 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3602,6 +3652,12 @@
 		(uuid "6297066a-5641-46cf-a425-bbc68fa0367c")
 	)
 	(junction
+		(at 337.82 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "635f61f2-55df-4064-962e-3ea22024f28c")
+	)
+	(junction
 		(at 270.51 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3630,6 +3686,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79fe553c-a7d5-41a7-a8eb-24c8e20183c8")
+	)
+	(junction
+		(at 344.17 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d36529f-b02d-48fd-ab4e-021d68922c56")
 	)
 	(junction
 		(at 295.91 62.23)
@@ -3792,6 +3854,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cae99af6-9db1-48dc-94b1-dbee929447d4")
+	)
+	(junction
+		(at 342.9 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb123626-ad2d-4a5d-9a0e-a407a99dbe4b")
+	)
+	(junction
+		(at 335.28 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d42dcf80-5a38-4831-b197-61c0a323b921")
 	)
 	(junction
 		(at 219.71 39.37)
@@ -4013,6 +4087,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 172.72) (xy 349.25 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0423164b-cc0a-4480-9bfb-fe2625c61f98")
+	)
+	(wire
+		(pts
 			(xy 304.8 212.09) (xy 304.8 215.9)
 		)
 		(stroke
@@ -4040,6 +4124,16 @@
 			(type default)
 		)
 		(uuid "09d0598f-5bdf-4349-a360-8621dfacb506")
+	)
+	(wire
+		(pts
+			(xy 342.9 125.73) (xy 345.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e4481f-d5c2-47d5-b83a-0804c42a3d54")
 	)
 	(wire
 		(pts
@@ -4113,6 +4207,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 125.73) (xy 342.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3cda1a-3196-4d7a-9582-fca178501ca9")
+	)
+	(wire
+		(pts
 			(xy 133.35 38.1) (xy 144.78 38.1)
 		)
 		(stroke
@@ -4160,6 +4264,16 @@
 			(type default)
 		)
 		(uuid "11b96724-c5d8-47b4-bf30-5df0fbdc6e1c")
+	)
+	(wire
+		(pts
+			(xy 335.28 107.95) (xy 344.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fd5d8e-f8c7-460f-83b6-1e1107087ee1")
 	)
 	(wire
 		(pts
@@ -4253,6 +4367,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 107.95) (xy 344.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d67bd05-84c1-4869-b30e-7fff283d7e31")
+	)
+	(wire
+		(pts
 			(xy 29.21 118.11) (xy 31.75 118.11)
 		)
 		(stroke
@@ -4310,6 +4434,16 @@
 			(type default)
 		)
 		(uuid "27e1a7d4-ce36-479f-85ca-46b1e909858c")
+	)
+	(wire
+		(pts
+			(xy 337.82 199.39) (xy 346.71 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2831e825-30f7-4fc3-bee6-99901a2f1066")
 	)
 	(wire
 		(pts
@@ -4613,6 +4747,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 113.03) (xy 345.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e23ad7-bbcf-4d9a-a261-54431eb4e0dd")
+	)
+	(wire
+		(pts
 			(xy 241.3 189.23) (xy 259.08 189.23)
 		)
 		(stroke
@@ -4650,6 +4794,16 @@
 			(type default)
 		)
 		(uuid "5c4ccbba-8e16-4b0b-a24e-e2702ba038fc")
+	)
+	(wire
+		(pts
+			(xy 349.25 185.42) (xy 349.25 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df63836-110f-42ee-bb1d-176e2eae4ecf")
 	)
 	(wire
 		(pts
@@ -4733,6 +4887,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 185.42) (xy 349.25 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740f5a4e-d112-4d49-9634-1e227eb7c170")
+	)
+	(wire
+		(pts
 			(xy 240.03 71.12) (xy 240.03 73.66)
 		)
 		(stroke
@@ -4783,6 +4947,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 186.69) (xy 349.25 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80210a97-4522-4b22-9ee9-a5dd3c04ce44")
+	)
+	(wire
+		(pts
 			(xy 241.3 210.82) (xy 259.08 210.82)
 		)
 		(stroke
@@ -4790,6 +4964,16 @@
 			(type default)
 		)
 		(uuid "8080b3b9-1a0b-4035-98e3-6ba8d97c66c4")
+	)
+	(wire
+		(pts
+			(xy 349.25 186.69) (xy 349.25 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842e67ad-bd50-47c6-9900-a46ee23bf67b")
 	)
 	(wire
 		(pts
@@ -4960,6 +5144,16 @@
 			(type default)
 		)
 		(uuid "9dbbcaaa-ce8e-445c-9d28-e796cd0216b1")
+	)
+	(wire
+		(pts
+			(xy 346.71 95.25) (xy 346.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eca0a7d-1f58-49d2-92af-bf23b4a305f1")
 	)
 	(wire
 		(pts
@@ -5363,6 +5557,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 199.39) (xy 349.25 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c48da5-48cb-4d87-9d50-e948a95e4267")
+	)
+	(wire
+		(pts
 			(xy 241.3 220.98) (xy 241.3 223.52)
 		)
 		(stroke
@@ -5380,6 +5584,16 @@
 			(type default)
 		)
 		(uuid "d7dacde5-fe7f-4ca5-b04f-12d3c14ed701")
+	)
+	(wire
+		(pts
+			(xy 342.9 113.03) (xy 345.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d874008a-0887-40be-901b-af98b809bfb2")
 	)
 	(wire
 		(pts
@@ -5510,6 +5724,16 @@
 			(type default)
 		)
 		(uuid "f49a85b8-3c41-4b3b-9903-bb4805c2b85e")
+	)
+	(wire
+		(pts
+			(xy 344.17 95.25) (xy 346.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ba2a68-1bad-457e-8428-3a670aa726b8")
 	)
 	(wire
 		(pts
@@ -12801,6 +13025,127 @@
 		)
 	)
 	(symbol
+		(lib_id "PDB_LCSC_Libs:XT60PW-M")
+		(at 340.36 101.6 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07f5ffc5-4e21-4cca-8851-9953a3d9bd29")
+		(property "Reference" "CN16"
+			(at 347.472 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 347.472 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PDB_LCSC:CONN-TH_XT60PW-M"
+			(at 340.36 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+			(at 340.36 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 340.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XT60PW-M"
+			(at 340.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C98732"
+			(at 340.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb7cabd6-d808-4396-9027-e08c8f92766f")
+		)
+		(pin "2"
+			(uuid "cfb1e163-7fe8-4dbc-98b7-f18c83f940cb")
+		)
+		(pin "3"
+			(uuid "8c8778d5-12b8-4332-bdc9-cb756aa59748")
+		)
+		(pin "4"
+			(uuid "6be81814-3f61-431f-88b5-21d4ffff7471")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "CN16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 203.2 120.65 90)
 		(unit 1)
@@ -13282,120 +13627,6 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PDB_LCSC_Libs:KF301-5.0-2P")
-		(at 341.63 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0f934eb5-02ad-4f9f-a610-1c9e70bfe8a2")
-		(property "Reference" "U25"
-			(at 340.36 184.912 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+12V_AUX_PWR"
-			(at 338.836 187.452 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PDB_LCSC:CONN-TH_P5.00_KF301-5.0-2P"
-			(at 341.63 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF301-5-0-2P_C474881.html"
-			(at 341.63 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 341.63 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KEFA(科发)"
-			(at 341.63 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KF301-5.0-2P"
-			(at 341.63 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C474881"
-			(at 341.63 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11a8fe6b-0ea2-492f-8e05-af5d90e7838b")
-		)
-		(pin "2"
-			(uuid "12ebf53c-560c-45f4-8036-5cfe72dae81d")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -16843,6 +17074,127 @@
 		)
 	)
 	(symbol
+		(lib_id "PDB_LCSC_Libs:XT60PW-M")
+		(at 342.9 193.04 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c43bdb3-f52f-471c-a9c5-f553374aa618")
+		(property "Reference" "CN17"
+			(at 350.012 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 350.012 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PDB_LCSC:CONN-TH_XT60PW-M"
+			(at 342.9 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+			(at 342.9 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 342.9 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XT60PW-M"
+			(at 342.9 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C98732"
+			(at 342.9 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da703d57-350b-40ce-b12c-68e967440f07")
+		)
+		(pin "2"
+			(uuid "7d7b9fbc-a994-405d-8967-0da1b9ad45e3")
+		)
+		(pin "3"
+			(uuid "4fc2c1a0-43e9-4bb7-a94c-8e2b7391e62b")
+		)
+		(pin "4"
+			(uuid "c8f3dd10-6e18-45cd-a0d6-3dab50140aca")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "CN17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 60.96 0)
 		(unit 1)
@@ -18867,8 +19219,9 @@
 		)
 	)
 	(symbol
-		(lib_id "PDB_LCSC_Libs:KF301-5.0-2P")
-		(at 337.82 119.38 0)
+		(lib_id "PDB_LCSC_Libs:XT60PW-M")
+		(at 342.9 179.07 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18876,9 +19229,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "720f9b37-eea8-4f41-898d-cecad15227c4")
-		(property "Reference" "U9"
-			(at 336.55 112.014 0)
+		(uuid "72f2d39c-4abe-43c0-8aa8-65d8348267b1")
+		(property "Reference" "CN18"
+			(at 350.012 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18888,8 +19241,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+20V_JETSON_PWR"
-			(at 335.788 114.3 0)
+		(property "Value" "XT60PW-M"
+			(at 350.012 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18899,8 +19252,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PDB_LCSC:CONN-TH_P5.00_KF301-5.0-2P"
-			(at 337.82 128.27 0)
+		(property "Footprint" "PDB_LCSC:CONN-TH_XT60PW-M"
+			(at 342.9 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18910,8 +19263,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF301-5-0-2P_C474881.html"
-			(at 337.82 130.81 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+			(at 342.9 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18922,7 +19275,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 337.82 119.38 0)
+			(at 342.9 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18932,8 +19285,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KEFA(科发)"
-			(at 337.82 133.35 0)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 342.9 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18943,8 +19296,8 @@
 				)
 			)
 		)
-		(property "MPN" "KF301-5.0-2P"
-			(at 337.82 135.89 0)
+		(property "MPN" "XT60PW-M"
+			(at 342.9 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18954,8 +19307,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C474881"
-			(at 337.82 138.43 0)
+		(property "LCSC Part" "C98732"
+			(at 342.9 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18966,15 +19319,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b671647-a069-4ee7-bf5c-0e6237f06db3")
+			(uuid "815f9dbe-4605-4fb0-a6d4-295ff3327270")
 		)
 		(pin "2"
-			(uuid "c57b1304-ef6c-4d58-b0fb-50a0d7866a02")
+			(uuid "eb7eec4a-d044-475f-8b0e-ac5ee2892bb5")
+		)
+		(pin "3"
+			(uuid "9dffe639-f728-4461-8175-1fa6fbdc0318")
+		)
+		(pin "4"
+			(uuid "7f5d1b0c-e196-4e5f-b529-d52ebe019e9c")
 		)
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U9")
+					(reference "CN18")
 					(unit 1)
 				)
 			)
@@ -20340,120 +20699,6 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PDB_LCSC_Libs:KF301-5.0-2P")
-		(at 339.09 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "95906640-6cfd-4efe-b439-ff20b700d91c")
-		(property "Reference" "U10"
-			(at 335.788 93.218 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+22.2V_POE_POWER"
-			(at 335.28 96.012 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PDB_LCSC:CONN-TH_P5.00_KF301-5.0-2P"
-			(at 339.09 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF301-5-0-2P_C474881.html"
-			(at 339.09 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 339.09 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KEFA(科发)"
-			(at 339.09 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KF301-5.0-2P"
-			(at 339.09 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C474881"
-			(at 339.09 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f49831e8-f954-449e-8806-b7a9cc7eb002")
-		)
-		(pin "2"
-			(uuid "ead71a23-9949-4c92-9386-46b36fc59188")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -21863,6 +22108,127 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PDB_LCSC_Libs:XT60PW-M")
+		(at 339.09 119.38 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bab38ea3-887b-4d90-b242-3fd9f234e17f")
+		(property "Reference" "CN15"
+			(at 346.202 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 346.202 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PDB_LCSC:CONN-TH_XT60PW-M"
+			(at 339.09 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98732.pdf"
+			(at 339.09 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 339.09 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XT60PW-M"
+			(at 339.09 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C98732"
+			(at 339.09 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dd3e029-1e50-4633-843b-14bb15eec2c8")
+		)
+		(pin "2"
+			(uuid "5d8d6e14-69e0-4adf-935d-b4e7783bcb7f")
+		)
+		(pin "3"
+			(uuid "6ee77beb-20b5-4f1e-b21f-9f35d2be1b1c")
+		)
+		(pin "4"
+			(uuid "640a2539-90cb-4103-a6a6-79f35047bf1c")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "CN15")
 					(unit 1)
 				)
 			)
@@ -24151,120 +24517,6 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PDB_LCSC_Libs:KF301-5.0-2P")
-		(at 341.63 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eb046785-67c1-4b8c-8f2c-6a10f4ce0c3d")
-		(property "Reference" "U20"
-			(at 339.598 170.688 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+12V_NET_SW_PWR"
-			(at 338.074 173.482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PDB_LCSC:CONN-TH_P5.00_KF301-5.0-2P"
-			(at 341.63 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF301-5-0-2P_C474881.html"
-			(at 341.63 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 341.63 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KEFA(科发)"
-			(at 341.63 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KF301-5.0-2P"
-			(at 341.63 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C474881"
-			(at 341.63 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d585e05-5650-4c98-9c73-6b5de7fc1841")
-		)
-		(pin "2"
-			(uuid "a2b6773d-c640-45ce-9be3-fcf2fdf8f37d")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U20")
 					(unit 1)
 				)
 			)
