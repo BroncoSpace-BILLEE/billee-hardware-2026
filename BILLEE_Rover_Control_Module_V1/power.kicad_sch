@@ -3083,10 +3083,10 @@
 		)
 		(uuid "fa86b8c1-f8d0-4209-ba3a-98ef3a416390")
 	)
-	(text_box "Voltage Divider to keep EN at safe level.\nLIPO Swing expected from 20v to 26v"
+	(text_box "Voltage Divider to keep EN at safe level.\nLIPO Swing expected from 20v to 26v.\nTHIS DOES NOT PROTECT FROM UNDERVOLTAGE"
 		(exclude_from_sim no)
-		(at 146.05 26.1128 0)
-		(size 26.035 10.0822)
+		(at 145.415 22.0236 0)
+		(size 26.035 14.1714)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3102,26 +3102,6 @@
 			(justify left top)
 		)
 		(uuid "3111a7e5-50f7-463a-84e7-c747835f9ed2")
-	)
-	(text_box "Voltage Divider to keep EN at safe level.\nLIPO Swing expected from 20v to 26v"
-		(exclude_from_sim no)
-		(at 142.875 101.6778 0)
-		(size 26.035 10.0822)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "33331623-7535-4f55-8550-7d747391a727")
 	)
 	(text_box "EN/UV has 19v as UVLO.\n19 = ((180k/10k)+1)*1\nR3*=R32=180k\nR4*=R36=10k"
 		(exclude_from_sim no)
@@ -3203,6 +3183,26 @@
 		)
 		(uuid "9966a1ea-1b18-4b05-9112-2452f60c2717")
 	)
+	(text_box "Voltage Divider to keep EN at safe level.\nLIPO Swing expected from 20v to 26v.\nTHIS DOES NOT PROTECT FROM UNDERVOLTAGE"
+		(exclude_from_sim no)
+		(at 147.32 172.72 0)
+		(size 26.035 14.1714)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9bd5fbdc-6dbd-41db-a116-a2751703bda8")
+	)
 	(text_box "ADD REVERSE CIRCUIT PROTECTIONSSSSS"
 		(exclude_from_sim no)
 		(at 28.575 156.7067 0)
@@ -3223,10 +3223,10 @@
 		)
 		(uuid "a359dd74-9f33-4fb5-a321-ff7a45202d1e")
 	)
-	(text_box "Voltage Divider to keep EN at safe level.\nLIPO Swing expected from 20v to 26v"
+	(text_box "Voltage Divider to keep EN at safe level.\nLIPO Swing expected from 20v to 26v.\nTHIS DOES NOT PROTECT FROM UNDERVOLTAGE"
 		(exclude_from_sim no)
-		(at 147.32 175.895 0)
-		(size 26.035 10.0822)
+		(at 142.875 98.425 0)
+		(size 26.035 14.1714)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3241,7 +3241,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "dbc16b4b-21b6-4e9e-8218-f37ff285e6ef")
+		(uuid "a83e105f-9aa5-4c85-ae4e-99225ac54e6c")
 	)
 	(text_box "EN/UV has 19v as UVLO.\n19 = ((180k/10k)+1)*1\nR3*=R32=180k\nR4*=R36=10k"
 		(exclude_from_sim no)
