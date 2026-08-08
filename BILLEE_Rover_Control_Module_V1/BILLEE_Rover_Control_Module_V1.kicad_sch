@@ -1181,7 +1181,7 @@
 		)
 		(uuid "3d7cc05b-7821-4cce-9f72-3230e147b64b")
 	)
-	(text_box "Design Revisions:\n1. Add Caps to outputs. SPEC THEM\n2. Add reverse circuit protections\n2. Simulate Everything"
+	(text_box "Design Revisions:\n1. Add reverse circuit protections to drive/arm/science\n2. Finish assigning footprints make sure to fix ones imported from scales\n3. Simulate Everything"
 		(exclude_from_sim no)
 		(at 246.38 217.805 0)
 		(size 120.015 46.0654)

@@ -3301,7 +3301,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 7.62 0)
 					(length 5.08)
 					(name "A1"
@@ -3319,7 +3319,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -2.54 17.78 270)
 					(length 5.08)
 					(name "VCCA"
@@ -3337,7 +3337,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 5.08 0)
 					(length 5.08)
 					(name "A2"
@@ -3355,7 +3355,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 2.54 0)
 					(length 5.08)
 					(name "A3"
@@ -3373,7 +3373,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 0 0)
 					(length 5.08)
 					(name "A4"
@@ -3391,7 +3391,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 -2.54 0)
 					(length 5.08)
 					(name "A5"
@@ -3409,7 +3409,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 -5.08 0)
 					(length 5.08)
 					(name "A6"
@@ -3427,7 +3427,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 -7.62 0)
 					(length 5.08)
 					(name "A7"
@@ -3445,7 +3445,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 -10.16 0)
 					(length 5.08)
 					(name "A8"
@@ -3463,7 +3463,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 10.16 0)
 					(length 5.08)
 					(name "OE"
@@ -3481,25 +3481,7 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -17.78 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 15.24 -10.16 180)
 					(length 5.08)
 					(name "B8"
@@ -3517,7 +3499,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 15.24 -7.62 180)
 					(length 5.08)
 					(name "B7"
@@ -3535,7 +3517,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 15.24 -5.08 180)
 					(length 5.08)
 					(name "B6"
@@ -3553,7 +3535,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "B5"
@@ -3571,7 +3553,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 15.24 0 180)
 					(length 5.08)
 					(name "B4"
@@ -3589,7 +3571,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 15.24 2.54 180)
 					(length 5.08)
 					(name "B3"
@@ -3607,7 +3589,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 15.24 5.08 180)
 					(length 5.08)
 					(name "B2"
@@ -3625,7 +3607,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 2.54 17.78 270)
 					(length 5.08)
 					(name "VCCB"
@@ -3643,7 +3625,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
 					(name "B1"
@@ -3654,6 +3636,26 @@
 						)
 					)
 					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TXS0108EPWR_1_1"
+				(pin input line
+					(at 0 -17.78 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11229,7 +11231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 312.674 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -11310,7 +11312,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 362.204 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -12349,7 +12351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 320.294 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -12889,7 +12891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12900,7 +12902,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C84260.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=TlVbAVcAQABWBFIHTlJdAQJeElcNAVNeFlQKBFBfQVIxVlNeQVBZVVNVQlFaVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12924,6 +12926,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 224.79 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C84260"
+			(at 224.79 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13047,7 +13060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330"
 			(at 226.568 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13058,7 +13071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 225.806 35.814 90)
 			(hide yes)
 			(show_name no)
@@ -13140,7 +13153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 371.094 94.996 90)
 			(hide yes)
 			(show_name no)
@@ -13222,7 +13235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 379.984 94.996 90)
 			(hide yes)
 			(show_name no)
@@ -13382,7 +13395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.914 94.996 90)
 			(hide yes)
 			(show_name no)
@@ -13614,7 +13627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 362.204 94.996 90)
 			(hide yes)
 			(show_name no)
@@ -16169,7 +16182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 371.094 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -18960,7 +18973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 320.294 94.996 90)
 			(hide yes)
 			(show_name no)
@@ -19656,7 +19669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 327.914 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -19993,7 +20006,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 379.984 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -20571,7 +20584,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 312.674 94.996 90)
 			(hide yes)
 			(show_name no)
