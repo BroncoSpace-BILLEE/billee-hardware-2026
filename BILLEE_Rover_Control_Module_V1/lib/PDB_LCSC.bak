@@ -5454,7 +5454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PDB_LCSC:HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP"
+		(property "Footprint" "PDB_LCSC:HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-TL-EP2.9"
 			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6070,24 +6070,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 0 -17.78 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 15.24 -10.16 180)
 				(length 5.08)
@@ -6243,6 +6225,26 @@
 					)
 				)
 				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TXS0108EPWR_1_1"
+			(pin input line
+				(at 0 -17.78 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)

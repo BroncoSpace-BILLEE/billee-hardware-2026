@@ -5454,7 +5454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PDB_LCSC:HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL-EP"
+		(property "Footprint" "PDB_LCSC:HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-TL-EP2.9"
 			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
