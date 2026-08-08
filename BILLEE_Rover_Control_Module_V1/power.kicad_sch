@@ -13178,7 +13178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0048e310-b2df-4700-aa52-b83a4c70984a")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR027"
 			(at 199.39 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -13238,7 +13238,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR095")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13256,7 +13256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01b505e3-e0bf-40ad-8799-abf85c7c5444")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 135.89 33.5279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13317,7 +13317,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -13334,7 +13334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "061fbfac-d1a6-4775-96e0-73cae23bd074")
-		(property "Reference" "C26"
+		(property "Reference" "C19"
 			(at 318.77 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13418,7 +13418,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C26")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -13435,7 +13435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "075e00e5-a5b3-47d7-96e5-41a9776c3991")
-		(property "Reference" "R66"
+		(property "Reference" "R27"
 			(at 247.142 204.216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13499,7 +13499,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R66")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -13517,7 +13517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07f5ffc5-4e21-4cca-8851-9953a3d9bd29")
-		(property "Reference" "CN16"
+		(property "Reference" "CN3"
 			(at 347.472 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13620,7 +13620,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "CN16")
+					(reference "CN3")
 					(unit 1)
 				)
 			)
@@ -13637,7 +13637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b20d857-8924-4123-8f83-5185af63f88d")
-		(property "Reference" "R41"
+		(property "Reference" "R16"
 			(at 199.898 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13701,7 +13701,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R41")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13718,7 +13718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c066277-b673-4dd9-8f29-71fd189d135c")
-		(property "Reference" "R35"
+		(property "Reference" "R29"
 			(at 270.764 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13782,7 +13782,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R35")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -13800,7 +13800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c263576-759d-4e65-91d5-9e5c21dd9621")
-		(property "Reference" "R27"
+		(property "Reference" "R4"
 			(at 147.32 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13864,7 +13864,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R27")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13881,7 +13881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c487bb7-62d6-479a-9809-e4698b17e229")
-		(property "Reference" "C38"
+		(property "Reference" "C15"
 			(at 294.894 183.388 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13945,7 +13945,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C38")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13962,7 +13962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c542ad3-6291-4211-86a3-24c8acd57833")
-		(property "Reference" "C37"
+		(property "Reference" "C12"
 			(at 255.524 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14026,7 +14026,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C37")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -14043,7 +14043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0db46bea-0ce1-4090-8847-fdb506f6a581")
-		(property "Reference" "R46"
+		(property "Reference" "R31"
 			(at 291.846 145.034 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14107,7 +14107,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R46")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -14124,7 +14124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fcca87a-134a-492f-abcf-e37ebf10d24d")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR011"
 			(at 114.3 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14184,7 +14184,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR072")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14202,7 +14202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10ab8b02-e707-4d3f-81f3-393570769a9e")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR03"
 			(at 41.91 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -14262,7 +14262,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR012")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14280,7 +14280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1105540d-9c9e-4f11-b744-5d3d31a16e14")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR055"
 			(at 323.85 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14340,7 +14340,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR069")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -14357,7 +14357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "114f1a66-5aa1-4443-889e-777694d6ea1c")
-		(property "Reference" "U24"
+		(property "Reference" "U8"
 			(at 273.558 178.816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14488,7 +14488,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U24")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -14505,7 +14505,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12d227d3-078b-4ee3-a373-ad4926b226a3")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 184.15 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14630,7 +14630,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14648,7 +14648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13d176e4-fd51-4543-9028-bf7c391fb91c")
-		(property "Reference" "D11"
+		(property "Reference" "D1"
 			(at 201.93 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14726,7 +14726,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "D11")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14744,7 +14744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14738652-03f9-4a02-ab6b-6ff6d4c6552b")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR016"
 			(at 142.24 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -14804,7 +14804,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR057")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14821,7 +14821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16a0df36-2fb1-42f5-9bae-00b3d527a1f9")
-		(property "Reference" "R47"
+		(property "Reference" "R33"
 			(at 299.466 133.604 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14885,7 +14885,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R47")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -14902,7 +14902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16e9a452-4ef5-43da-a827-4cd1d919de9c")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR05"
 			(at 49.53 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14962,7 +14962,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR055")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14980,7 +14980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b97a14-9e83-4e02-a55f-5ab14816e3cc")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR018"
 			(at 147.32 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -15040,7 +15040,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0115")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15178,7 +15178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1954d136-b317-4937-a4b1-e9a211ec57b9")
-		(property "Reference" "R100"
+		(property "Reference" "R13"
 			(at 194.056 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15242,7 +15242,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R100")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15339,7 +15339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e12f9a5-10b1-4916-a138-4a051a9eb24f")
-		(property "Reference" "R29"
+		(property "Reference" "R11"
 			(at 163.83 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15403,7 +15403,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R29")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15420,7 +15420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e644af7-8ed7-4b2e-b0b1-c40511a65140")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR036"
 			(at 240.03 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15480,7 +15480,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR056")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15498,7 +15498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2048133d-57ae-4639-b189-102cf71de62a")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR013"
 			(at 130.81 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -15558,7 +15558,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR046")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15576,7 +15576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21a4c4b7-279d-47c9-924d-b6e6f1b83ee0")
-		(property "Reference" "R38"
+		(property "Reference" "R2"
 			(at 144.78 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15640,7 +15640,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R38")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15657,7 +15657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21b0a30c-a3c8-4cf9-a42c-82678ac33f38")
-		(property "Reference" "R45"
+		(property "Reference" "R28"
 			(at 268.224 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15721,7 +15721,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R45")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -15739,7 +15739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2247db20-5afe-42d0-b7a1-6e41aabdd0e0")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR015"
 			(at 134.62 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -15799,7 +15799,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR091")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15816,7 +15816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "229a724f-8aa7-4fab-ab67-fdff938772d9")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR07"
 			(at 69.85 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15876,7 +15876,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR075")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15894,7 +15894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23e3b159-9909-45fc-8808-d8f64dcc493e")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR065"
 			(at 337.82 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15954,7 +15954,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0105")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -15972,7 +15972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23eb502b-f71b-49b7-a695-51991f1d9056")
-		(property "Reference" "TP8"
+		(property "Reference" "TP6"
 			(at 223.52 184.6579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16033,7 +16033,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "TP8")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -16050,7 +16050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "253d94b2-1e59-410f-a430-e3d99ad162ff")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR038"
 			(at 241.3 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -16110,7 +16110,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR097")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -16128,7 +16128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25ced333-46fb-428a-87ff-deacaf27ff65")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 133.35 109.7279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16189,7 +16189,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -16207,7 +16207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "265743a6-b7a7-4d65-9c53-2e624c798de6")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR058"
 			(at 326.39 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16267,7 +16267,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR054")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -16285,7 +16285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "268ce3f2-7593-4ecd-bcdf-6e426fb61cc7")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR04"
 			(at 45.72 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16345,7 +16345,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR011")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -16363,7 +16363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27bbdf7f-d57a-4afb-a3d5-0abcbd5c2236")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG07"
 			(at 328.295 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16424,7 +16424,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#FLG01")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -16441,7 +16441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c0c8421-acf0-4b32-8108-9efce9936dd3")
-		(property "Reference" "R33"
+		(property "Reference" "R35"
 			(at 302.006 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16505,7 +16505,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R33")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -16523,7 +16523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c184ca6-1377-4cb1-859c-8b87af022101")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG05"
 			(at 308.61 116.205 0)
 			(hide yes)
 			(show_name no)
@@ -16583,7 +16583,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#FLG04")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -16600,7 +16600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cc578d8-8157-493c-9176-4187cd8e4af7")
-		(property "Reference" "R34"
+		(property "Reference" "R32"
 			(at 294.386 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16664,7 +16664,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R34")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -16682,7 +16682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e6d0be5-9a94-457a-b403-4518fd8a014e")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR09"
 			(at 76.2 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -16742,7 +16742,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0169")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16760,7 +16760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e88ffc6-1e6e-4431-b562-131e98f9a182")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR023"
 			(at 161.29 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -16820,7 +16820,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR044")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -16838,7 +16838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f1ae8f1-8ba9-4168-afac-8a0681224804")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR025"
 			(at 195.58 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16898,7 +16898,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR060")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -16916,7 +16916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31cbd4ab-82aa-4f7a-bc49-dba99f4fdb7e")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR057"
 			(at 323.85 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16976,7 +16976,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR070")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -16994,7 +16994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32576c7e-e499-4177-bfb6-1ec9cf6db068")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR060"
 			(at 327.66 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -17054,7 +17054,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR077")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -17072,7 +17072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33508601-e401-4125-be0f-68fdb62c5102")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR051"
 			(at 297.18 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -17132,7 +17132,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0102")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -17231,7 +17231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3673f193-06a9-489a-ad36-e003ab12b52e")
-		(property "Reference" "R37"
+		(property "Reference" "R1"
 			(at 144.78 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17295,7 +17295,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R37")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -17313,7 +17313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37d5c889-fff6-4cd7-be62-5f72ff89fcc0")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR061"
 			(at 327.66 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -17373,7 +17373,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0104")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -17391,7 +17391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ba5f51-8bb4-4e5c-ad52-7be7bb172e31")
-		(property "Reference" "D12"
+		(property "Reference" "D3"
 			(at 205.74 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17469,7 +17469,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "D12")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -17600,7 +17600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c43bdb3-f52f-471c-a9c5-f553374aa618")
-		(property "Reference" "CN17"
+		(property "Reference" "CN5"
 			(at 350.012 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17703,7 +17703,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "CN17")
+					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -17721,7 +17721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "409de9b6-3aed-4026-a6b3-88f64a10f892")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR014"
 			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -17781,7 +17781,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR042")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -17877,7 +17877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d18e93-2a4f-4c78-94da-22f4b680858f")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR042"
 			(at 252.73 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -17937,7 +17937,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR099")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -17955,7 +17955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4383bad0-8a27-45d1-a733-1aa2e8289e59")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 314.96 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -18015,7 +18015,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -18032,7 +18032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43d66a48-573c-4a31-9ef1-afab1b5a7124")
-		(property "Reference" "R44"
+		(property "Reference" "R23"
 			(at 243.332 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18096,7 +18096,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R44")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -18113,7 +18113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "469fb34e-17f6-4445-8bc2-11bcdec60759")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR063"
 			(at 335.28 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -18173,7 +18173,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR076")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -18191,7 +18191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cb22618-45a0-462d-af08-c4bb15bbdec1")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR043"
 			(at 262.89 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18251,7 +18251,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR065")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -18268,7 +18268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d6d1908-894c-42b5-ab60-3a1c185155a0")
-		(property "Reference" "C25"
+		(property "Reference" "C16"
 			(at 295.656 145.542 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18332,7 +18332,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C25")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -18349,7 +18349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51ca493e-1fd5-467d-9b8e-1027de4dc89a")
-		(property "Reference" "R36"
+		(property "Reference" "R25"
 			(at 245.872 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18413,7 +18413,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R36")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -18431,7 +18431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53134212-6980-4d9c-8a61-8d008357b173")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR020"
 			(at 153.67 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -18491,7 +18491,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR043")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -18508,7 +18508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53747bbe-1fd5-4ad9-9eee-8e9a2832a2b1")
-		(property "Reference" "R28"
+		(property "Reference" "R8"
 			(at 155.448 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18572,7 +18572,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R28")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -18589,7 +18589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5673eba2-67f9-4987-9536-b3f7dc596d61")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR010"
 			(at 111.76 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -18649,7 +18649,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR074")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -18667,7 +18667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "567dcf61-8d08-428f-8ef6-03c32d62c216")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR039"
 			(at 241.3 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -18727,7 +18727,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR098")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18745,7 +18745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5733d3e5-31a1-46fb-9c17-db11e4b7624f")
-		(property "Reference" "U38"
+		(property "Reference" "U2"
 			(at 52.07 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18858,7 +18858,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U38")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -18875,7 +18875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "578939a6-73ae-4f1a-8555-5e3da74fbdc3")
-		(property "Reference" "R32"
+		(property "Reference" "R24"
 			(at 245.364 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18939,7 +18939,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R32")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -18956,7 +18956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "583205df-9867-42ae-be89-208b8c5ae9ca")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR02"
 			(at 41.91 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -19016,7 +19016,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR09")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -19034,7 +19034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b7a90d2-f2e5-47c7-8c8e-e4c5198680bb")
-		(property "Reference" "C35"
+		(property "Reference" "C3"
 			(at 138.43 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19098,7 +19098,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C35")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -19116,7 +19116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b92fb93-ed5c-4b29-a79b-606c6b8eb927")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR040"
 			(at 248.92 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -19176,7 +19176,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR064")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -19194,7 +19194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d574b75-9451-4e6f-80ef-0fe0ddbbc465")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR08"
 			(at 72.39 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -19254,7 +19254,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0170")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -19271,7 +19271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "640bdd6b-4730-4ecf-ba70-09f89886e041")
-		(property "Reference" "C39"
+		(property "Reference" "C18"
 			(at 300.736 219.202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19335,7 +19335,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C39")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -19352,7 +19352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65bb105c-b824-4dc6-b75a-447103005fcf")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 181.61 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19477,7 +19477,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -19494,7 +19494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6679020f-edbb-4e6e-b42b-da1138a0508f")
-		(property "Reference" "C64"
+		(property "Reference" "C6"
 			(at 223.774 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19568,7 +19568,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C64")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19586,7 +19586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69105509-8ea4-4aa7-b44c-b985f74f4459")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR035"
 			(at 237.49 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -19646,7 +19646,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR063")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -19663,7 +19663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dd6f83e-872a-4893-90ea-f1d6fa813b99")
-		(property "Reference" "R101"
+		(property "Reference" "R15"
 			(at 197.866 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19727,7 +19727,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R101")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -19745,7 +19745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72f2d39c-4abe-43c0-8aa8-65d8348267b1")
-		(property "Reference" "CN18"
+		(property "Reference" "CN4"
 			(at 350.012 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19848,7 +19848,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "CN18")
+					(reference "CN4")
 					(unit 1)
 				)
 			)
@@ -19866,7 +19866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "748a1978-9160-4ced-93fc-165ce148678e")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR054"
 			(at 316.23 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -19926,7 +19926,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0103")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -20022,7 +20022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "780c2b81-4721-44fc-ac11-a87e66361e45")
-		(property "Reference" "C62"
+		(property "Reference" "C5"
 			(at 222.504 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20096,7 +20096,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C62")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -20113,7 +20113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "793f510a-9215-40dd-b80b-5df9ee60226c")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR034"
 			(at 237.49 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -20173,7 +20173,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR062")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -20191,7 +20191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "797744be-644b-470c-bd3c-36257b5a8176")
-		(property "Reference" "R59"
+		(property "Reference" "R5"
 			(at 149.86 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20255,7 +20255,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R59")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -20350,7 +20350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bcdd477-2980-4c53-953f-949d47d2857d")
-		(property "Reference" "C22"
+		(property "Reference" "C7"
 			(at 240.284 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20414,7 +20414,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C22")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -20431,7 +20431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ccc19b7-0513-43df-be2b-871b3914db7a")
-		(property "Reference" "U23"
+		(property "Reference" "U5"
 			(at 185.42 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20556,7 +20556,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U23")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -20574,7 +20574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "854f316b-95d9-442b-a714-0ca9f1c3aa97")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR028"
 			(at 207.01 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20634,7 +20634,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR061")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -20652,7 +20652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "858e651a-072e-4beb-b688-a01c1244702a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR044"
 			(at 265.43 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -20712,7 +20712,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR047")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -20729,7 +20729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89e8ae39-1466-40b3-ac3e-7850035bb344")
-		(property "Reference" "R31"
+		(property "Reference" "R18"
 			(at 202.438 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20793,7 +20793,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R31")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -20811,7 +20811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ae99bdd-2acb-43f9-b9da-e608c0be38e4")
-		(property "Reference" "R72"
+		(property "Reference" "R6"
 			(at 149.86 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20875,7 +20875,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R72")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -20893,7 +20893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ba6e023-0d7f-42a1-9dae-df3fd1ff6bfe")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR041"
 			(at 251.46 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -20953,7 +20953,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR051")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -20971,7 +20971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d901e13-d491-48b8-a30a-b3e5d820211c")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR017"
 			(at 144.78 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -21031,7 +21031,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR041")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -21048,7 +21048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "912e82b7-71ff-4781-b1d6-1715971da32d")
-		(property "Reference" "R61"
+		(property "Reference" "R9"
 			(at 156.718 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21112,7 +21112,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R61")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -21129,7 +21129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9319c33e-675c-40ee-be2b-e469fb35dbe3")
-		(property "Reference" "C41"
+		(property "Reference" "C24"
 			(at 334.01 197.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21213,7 +21213,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C41")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -21231,7 +21231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9800edd1-8f58-427b-ac9a-81cfdf85f9e3")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR049"
 			(at 293.37 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -21291,7 +21291,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR067")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -21569,7 +21569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "998cbd96-1376-4c08-b847-4387b70b8a36")
-		(property "Reference" "R64"
+		(property "Reference" "R21"
 			(at 203.708 195.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21633,7 +21633,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R64")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -21650,7 +21650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ae896ba-2dc6-45a6-8b42-e6234bc64310")
-		(property "Reference" "R42"
+		(property "Reference" "R17"
 			(at 199.898 122.174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21714,7 +21714,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R42")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -21732,7 +21732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d11e005-cd9e-4768-8ed7-202ba2fe4feb")
-		(property "Reference" "R40"
+		(property "Reference" "R10"
 			(at 161.29 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21796,7 +21796,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R40")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -21813,7 +21813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a27c897b-df8a-482f-ac5b-a8b3de0dc9e7")
-		(property "Reference" "R69"
+		(property "Reference" "R36"
 			(at 304.546 207.264 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21877,7 +21877,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R69")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -21895,7 +21895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2f3feee-85e7-4548-b9ac-0ddc8d6b0266")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR056"
 			(at 323.85 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -21955,7 +21955,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR071")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -21972,7 +21972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9fc4e8b-a6f8-472a-8fb5-f9510184c7c5")
-		(property "Reference" "R43"
+		(property "Reference" "R22"
 			(at 242.824 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22036,7 +22036,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R43")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -22054,7 +22054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af4ad8dd-0dfc-4540-8715-c6f658d4decf")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR022"
 			(at 158.75 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -22114,7 +22114,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR059")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -22132,7 +22132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b023618a-5c1d-44f6-a17e-bbc9fb4c34a2")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR019"
 			(at 151.13 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -22192,7 +22192,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR058")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -22210,7 +22210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0c028ad-f1d1-48ba-b0ea-a334f463d9fc")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR052"
 			(at 312.42 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -22270,7 +22270,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR068")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -22287,7 +22287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b121bb83-a9e6-4b56-b07f-4a4ea782c778")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR012"
 			(at 115.57 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -22347,7 +22347,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR090")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -22364,7 +22364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b326e983-19f7-4d17-b3f4-dab3daa74836")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 269.748 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22495,7 +22495,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -22513,7 +22513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3694725-d08c-4046-bd7d-46edab1e2e01")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR030"
 			(at 210.82 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -22573,7 +22573,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR096")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -22590,7 +22590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7364916-0fcc-478a-a956-0b27b07eafce")
-		(property "Reference" "R67"
+		(property "Reference" "R30"
 			(at 272.034 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22654,7 +22654,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R67")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -22671,7 +22671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b957c69b-5b43-4bb3-8290-26bdcf9481d5")
-		(property "Reference" "C23"
+		(property "Reference" "C10"
 			(at 251.714 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22735,7 +22735,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C23")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -22753,7 +22753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bab38ea3-887b-4d90-b242-3fd9f234e17f")
-		(property "Reference" "CN15"
+		(property "Reference" "CN2"
 			(at 346.202 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22856,7 +22856,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "CN15")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -22873,7 +22873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bafc19fe-327c-4d7e-8137-c1683f3c8c02")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 321.31 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22957,7 +22957,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -22974,7 +22974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf05fc28-b54a-4dee-8550-dec63d3c5649")
-		(property "Reference" "C18"
+		(property "Reference" "C14"
 			(at 293.624 33.528 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22985,7 +22985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "0.1u"
 			(at 293.624 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23038,7 +23038,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C18")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -23055,7 +23055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfd0fa86-692f-49ff-846f-68fc5ec98407")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 273.05 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -23115,7 +23115,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -23133,7 +23133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bff81e04-7ce3-49b0-bbac-a0f84e64d3e5")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG02"
 			(at 49.53 38.735 0)
 			(hide yes)
 			(show_name no)
@@ -23193,7 +23193,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#FLG07")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -23211,7 +23211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c090d2d9-727f-4c4d-b8a8-66d5247bc666")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR024"
 			(at 162.56 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -23271,7 +23271,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR094")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -23289,7 +23289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c11efd2c-3740-44ea-ac58-1ddea0d7167e")
-		(property "Reference" "D10"
+		(property "Reference" "D2"
 			(at 204.47 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23367,7 +23367,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "D10")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -23384,7 +23384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1ca0ba3-31d9-41d6-bffa-d1a3a3b51d53")
-		(property "Reference" "C20"
+		(property "Reference" "C23"
 			(at 332.74 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23468,7 +23468,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C20")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -23486,7 +23486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2c91fff-5d2f-49e2-8fe3-8c451e304263")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR033"
 			(at 220.98 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -23546,7 +23546,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0182")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -23564,7 +23564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4c1be8c-a388-4e6d-9577-91836e4c90f8")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 137.16 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23628,7 +23628,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -23645,7 +23645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9cb623a-39cc-4c0f-99f6-5f18f8615bcf")
-		(property "Reference" "C36"
+		(property "Reference" "C9"
 			(at 244.094 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23709,7 +23709,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C36")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -23726,7 +23726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca9a732b-07d6-4d3a-ac1d-394fedc83bf1")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR048"
 			(at 274.32 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -23786,7 +23786,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0101")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -23803,7 +23803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf0838d5-5645-478b-8138-b0caedccbf38")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR046"
 			(at 270.51 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -23863,7 +23863,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR066")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -23881,7 +23881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d14a30bd-b1de-488e-8d75-b5dd645bd14f")
-		(property "Reference" "TP2"
+		(property "Reference" "TP5"
 			(at 222.25 34.7979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23942,7 +23942,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "TP2")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -23959,7 +23959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7576bd6-361d-4a2e-87b7-2dafe5fb1db1")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 55.88 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -24019,7 +24019,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -24036,7 +24036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d968c595-0e59-4056-91a9-828b610d6abd")
-		(property "Reference" "R68"
+		(property "Reference" "R34"
 			(at 295.656 218.694 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24100,7 +24100,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R68")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -24117,7 +24117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da770d6b-6186-4c46-9460-66bc54b61581")
-		(property "Reference" "C24"
+		(property "Reference" "C13"
 			(at 291.084 109.728 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24128,7 +24128,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "0.1u"
 			(at 291.084 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24181,7 +24181,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C24")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -24199,7 +24199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dae0344c-5f83-473e-b0a5-c3600df81330")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR031"
 			(at 217.17 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -24259,7 +24259,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0181")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -24276,7 +24276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd04eded-d374-415b-b487-1dbb4e4b46d4")
-		(property "Reference" "C16"
+		(property "Reference" "C11"
 			(at 254.254 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24340,7 +24340,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C16")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -24358,7 +24358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddd7d49f-bba2-4eab-ac2e-535fadd9fdfe")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR062"
 			(at 334.01 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -24418,7 +24418,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR073")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -24436,7 +24436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de9e281e-0c27-42c5-a953-735569ec4dd4")
-		(property "Reference" "U1"
+		(property "Reference" "U9"
 			(at 302.23 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24531,7 +24531,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U1")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -24548,7 +24548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dea4a72c-e662-4183-b769-ce096729db86")
-		(property "Reference" "C63"
+		(property "Reference" "C4"
 			(at 219.964 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24622,7 +24622,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C63")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -24640,7 +24640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deaa901c-23f6-4f2a-9d93-c1194bb72873")
-		(property "Reference" "TP7"
+		(property "Reference" "TP3"
 			(at 137.16 183.3879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24701,7 +24701,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "TP7")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -24718,7 +24718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e088eb48-22a7-4011-a9f9-c1c97ebfde05")
-		(property "Reference" "R65"
+		(property "Reference" "R26"
 			(at 246.634 194.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24782,7 +24782,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R65")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -24799,7 +24799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0d1fb34-b9a5-4464-a930-ae642c7477b3")
-		(property "Reference" "R99"
+		(property "Reference" "R14"
 			(at 196.596 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24863,7 +24863,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R99")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -24881,7 +24881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e37e6fd8-8847-409b-a6d2-aeb88ab2eee0")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR037"
 			(at 240.03 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -24941,7 +24941,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR049")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -24959,7 +24959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4f9dca4-7cd4-44b9-8618-54520e5eb577")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR01"
 			(at 36.83 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -25019,7 +25019,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0168")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -25037,7 +25037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e543ea95-bbd5-48ba-b278-af49ee3099ea")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 41.91 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -25097,7 +25097,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -25114,7 +25114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eab04729-834d-40c4-bdf4-536739d37017")
-		(property "Reference" "R30"
+		(property "Reference" "R19"
 			(at 202.438 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25178,7 +25178,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R30")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -25196,7 +25196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb2bc009-b9d1-4483-85f2-f2efdfd34eef")
-		(property "Reference" "C21"
+		(property "Reference" "C1"
 			(at 134.62 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25260,7 +25260,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C21")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -25277,7 +25277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb996224-edaf-4455-a2dd-7adf510d4f96")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR064"
 			(at 337.82 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -25337,7 +25337,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0109")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -25355,7 +25355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebb0c684-6bfa-49d9-94bd-c0591fe00235")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR021"
 			(at 154.94 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -25415,7 +25415,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR093")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -25433,7 +25433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec0b93b5-45b8-4faa-a0b2-7e16a9c112ed")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR029"
 			(at 209.55 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -25493,7 +25493,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR045")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -25511,7 +25511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec31b485-1c6f-4502-9070-8d4615cf9d4f")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR032"
 			(at 219.71 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -25571,7 +25571,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0180")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -25589,7 +25589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f29a4129-71f6-469a-8d33-18dd45d020c9")
-		(property "Reference" "R26"
+		(property "Reference" "R3"
 			(at 147.32 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25653,7 +25653,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R26")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -25670,7 +25670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3948f34-9e2a-436c-b716-85b737d57b7e")
-		(property "Reference" "R63"
+		(property "Reference" "R20"
 			(at 203.708 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25734,7 +25734,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R63")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -25751,7 +25751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3bf4191-1813-46a9-8a30-6b81ae11fdf2")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 49.276 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25887,7 +25887,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -25904,7 +25904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f457baad-02fc-4432-8b32-a0991efd9eab")
-		(property "Reference" "C40"
+		(property "Reference" "C21"
 			(at 322.58 197.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25988,7 +25988,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C40")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -26006,7 +26006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f541bbd0-f8b8-4b94-a333-216b515795b4")
-		(property "Reference" "R62"
+		(property "Reference" "R12"
 			(at 165.1 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26070,7 +26070,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R62")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -26087,7 +26087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f784fe42-ad57-4531-a6b5-de9a16f52ab6")
-		(property "Reference" "R39"
+		(property "Reference" "R7"
 			(at 152.908 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26151,7 +26151,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "R39")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -26169,7 +26169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7a9f315-e144-47f7-bd3a-e19fe3d0f65b")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG04"
 			(at 306.07 98.425 0)
 			(hide yes)
 			(show_name no)
@@ -26229,7 +26229,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#FLG09")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -26246,7 +26246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7d72ee4-b2f2-4448-8082-b491610afc86")
-		(property "Reference" "C27"
+		(property "Reference" "C22"
 			(at 330.2 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26330,7 +26330,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C27")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -26347,7 +26347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f992b0d6-ce3a-4227-8d16-8eef8c7b4dc0")
-		(property "Reference" "C15"
+		(property "Reference" "C8"
 			(at 242.824 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26411,7 +26411,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C15")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -26429,7 +26429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fba426dd-ec94-4c50-8362-d02ea35f7501")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR045"
 			(at 266.7 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -26489,7 +26489,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR0100")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -26507,7 +26507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fee21e99-afdc-4835-ae33-2832bef1abc8")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR059"
 			(at 326.39 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -26567,7 +26567,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR053")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -26585,7 +26585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff3d7138-886a-448e-a389-3b90eeb43b70")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR026"
 			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -26645,7 +26645,7 @@
 		(instances
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "#PWR08")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
