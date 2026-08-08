@@ -289,184 +289,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -830,6 +652,199 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PDB_LCSC_Libs:CYA0630-10UH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CYA0630-10UH"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PDB_LCSC:IND-SMD_L7.2-W6.6_GPSR07X0"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5189958.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SHOU HAN(首韩)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CYA0630-10UH"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C5189958"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Inductors (SMD)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CYA0630-10UH_0_1"
+				(arc
+					(start -4.29 0.02)
+					(mid -3.28 1.1)
+					(end -2.27 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.13 0.02)
+					(mid -1.12 1.1)
+					(end -0.11 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.02 0.02)
+					(mid 1.03 1.1)
+					(end 2.04 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.21 0.02)
+					(mid 3.22 1.1)
+					(end 4.23 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CYA0630-10UH_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1882,6 +1897,392 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PDB_LCSC_Libs:NLV32T-1R8J-PF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NLV32T-1R8J-PF"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PDB_LCSC:L1210"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Inductors-SMD_TDK_NLV32T-1R8J-PF_NLV32T-1R8J-PF_C41039.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "NLV32T-1R8J-PF"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C41039"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Inductors/Coils/Transformers"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NLV32T-1R8J-PF_0_1"
+				(arc
+					(start -4.29 0.02)
+					(mid -3.28 1.11)
+					(end -2.27 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.13 0.02)
+					(mid -1.12 1.11)
+					(end -0.11 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.02 0.02)
+					(mid 1.03 1.11)
+					(end 2.04 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.21 0.02)
+					(mid 3.22 1.09)
+					(end 4.23 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NLV32T-1R8J-PF_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PDB_LCSC_Libs:TMPA1265SP-330MN-D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TMPA1265SP-330MN-D"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PDB_LCSC:IND-SMD_L13.5-W12.6"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2880058.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TAI-TECH(台庆)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TMPA1265SP-330MN-D"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2880058"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Power Inductors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TMPA1265SP-330MN-D_0_1"
+				(arc
+					(start -4.29 0.02)
+					(mid -3.28 1.1)
+					(end -2.27 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.13 0.02)
+					(mid -1.12 1.1)
+					(end -0.11 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.02 0.02)
+					(mid 1.03 1.1)
+					(end 2.04 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.21 0.02)
+					(mid 3.22 1.1)
+					(end 4.23 0.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TMPA1265SP-330MN-D_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3514,6 +3915,12 @@
 		(uuid "0169c40f-1eb0-4483-bd53-932d48bdf2f8")
 	)
 	(junction
+		(at 297.18 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "077c3c70-e1c8-46ba-b762-5b6e69a04aae")
+	)
+	(junction
 		(at 274.32 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3544,6 +3951,12 @@
 		(uuid "12dcd020-db46-487b-96e4-de4e94833d33")
 	)
 	(junction
+		(at 307.34 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13c3a616-91f9-4061-8a73-1b34103ef5c0")
+	)
+	(junction
 		(at 210.82 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3554,12 +3967,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a2b60fb-9055-46a5-95a3-0a29549913d4")
-	)
-	(junction
-		(at 295.91 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "213781ef-708b-46b3-beae-4132cc8f4993")
 	)
 	(junction
 		(at 293.37 142.24)
@@ -3580,12 +3987,6 @@
 		(uuid "31f6c9d3-c150-4bca-b090-52bd8d296f0f")
 	)
 	(junction
-		(at 297.18 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "333f5e0e-562f-4d91-88b7-c139ea420b55")
-	)
-	(junction
 		(at 208.28 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3596,6 +3997,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d7a2573-1cd3-4444-847a-7d0f66b825b3")
+	)
+	(junction
+		(at 300.99 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e6bcff2-8121-4187-ade1-6e1683135436")
 	)
 	(junction
 		(at 60.96 123.19)
@@ -3610,10 +4017,22 @@
 		(uuid "3fa4eff5-b68f-4d74-a42e-352cd3f961b6")
 	)
 	(junction
+		(at 307.34 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4156a9a4-84ba-4c85-932d-58b780ee1d7a")
+	)
+	(junction
 		(at 346.71 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43d2620b-1d43-4ebb-9ab6-e68101b58b62")
+	)
+	(junction
+		(at 311.15 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a67ef53-796c-413e-a7b0-6efa9368b0c4")
 	)
 	(junction
 		(at 327.66 191.77)
@@ -3622,28 +4041,16 @@
 		(uuid "4d0ba8e3-7e95-4d8f-a96f-c397abe97354")
 	)
 	(junction
-		(at 300.99 120.65)
+		(at 308.61 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5741a79d-0ca7-4b9f-9d64-2f6a5a8956d2")
-	)
-	(junction
-		(at 297.18 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "577cbffa-062d-429d-a7dd-777cf6d4e817")
+		(uuid "5253183b-46fe-46e1-aa6d-5b9890c4ce76")
 	)
 	(junction
 		(at 237.49 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f1e0770-1179-48b4-99eb-7b1771b056e7")
-	)
-	(junction
-		(at 304.8 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6285fad5-7df4-4901-b72e-9cf7c7ffba06")
 	)
 	(junction
 		(at 209.55 46.99)
@@ -3670,10 +4077,10 @@
 		(uuid "729c0c49-81ae-49fd-ae16-b29e03d614de")
 	)
 	(junction
-		(at 300.99 118.11)
+		(at 293.37 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72bf8622-d001-4c60-bd79-a28291d1c488")
+		(uuid "75b58240-4f98-4f68-a4f2-35af587799b3")
 	)
 	(junction
 		(at 240.03 48.26)
@@ -3700,6 +4107,12 @@
 		(uuid "7d889a82-fdca-4f82-990f-74a25c2a1d2b")
 	)
 	(junction
+		(at 303.53 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "822f1d7c-5cee-41a5-a333-ff9f0399982a")
+	)
+	(junction
 		(at 69.85 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3722,6 +4135,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "914b8830-3a0c-4dcf-9285-ef913f919414")
+	)
+	(junction
+		(at 297.18 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "937d480b-625b-418b-8757-d571a8a4300c")
 	)
 	(junction
 		(at 323.85 100.33)
@@ -3766,22 +4185,16 @@
 		(uuid "a6c56921-db63-4aa2-b940-2c542bfbbf8b")
 	)
 	(junction
-		(at 304.8 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7d04590-74d6-4e19-813f-7e062ae27c1a")
-	)
-	(junction
 		(at 130.81 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8ac0e06-fdba-4dd0-a5c8-be6380d09a4d")
 	)
 	(junction
-		(at 304.8 191.77)
+		(at 306.07 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab41df47-8aa1-43a1-95f2-48883e02248b")
+		(uuid "a9776de5-45e1-49aa-af15-a4cbc6ecf7bf")
 	)
 	(junction
 		(at 295.91 66.04)
@@ -3790,16 +4203,22 @@
 		(uuid "ac1f2853-1107-48cd-a2f7-abbe8c747398")
 	)
 	(junction
+		(at 295.91 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae61ecad-f0ad-43af-ad3f-accca818c6d6")
+	)
+	(junction
 		(at 323.85 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "affad8b6-ea42-46d3-bb0f-e5a176ef287f")
 	)
 	(junction
-		(at 297.18 212.09)
+		(at 306.07 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2372eec-4fda-4d1d-a957-002f0ae2ded9")
+		(uuid "b08de66a-7ee7-491c-a829-1a6a1f8665e4")
 	)
 	(junction
 		(at 303.53 62.23)
@@ -3814,16 +4233,16 @@
 		(uuid "b8b64f5d-417e-4662-9cca-45c0dcda3d0c")
 	)
 	(junction
-		(at 303.53 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b99fd8af-e1fb-46b5-abd3-5122be2b4c65")
-	)
-	(junction
 		(at 41.91 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bab22505-7ba1-4226-b2cb-a3a353422fe4")
+	)
+	(junction
+		(at 307.34 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd843f87-163a-4b2e-8003-7ac987c4c9f5")
 	)
 	(junction
 		(at 53.34 36.83)
@@ -3844,18 +4263,6 @@
 		(uuid "c6bb1d56-3998-4e66-ba30-95bec7677ccc")
 	)
 	(junction
-		(at 306.07 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8b4e17b-523a-4027-9a58-c9b0eddfa384")
-	)
-	(junction
-		(at 293.37 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cae99af6-9db1-48dc-94b1-dbee929447d4")
-	)
-	(junction
 		(at 342.9 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3874,12 +4281,6 @@
 		(uuid "db40d35a-e95f-482a-863a-592c17f1dfc0")
 	)
 	(junction
-		(at 303.53 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db60de8e-a176-4769-9b79-d8809bad4111")
-	)
-	(junction
 		(at 142.24 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3890,6 +4291,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de48fef0-3dc6-4eaf-9233-b9c84824e3b0")
+	)
+	(junction
+		(at 297.18 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "defb9f68-cfde-4716-bae1-9d40f1355601")
 	)
 	(junction
 		(at 327.66 177.8)
@@ -3926,12 +4333,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f120b1a9-b215-4424-93ee-0521b9d3c4e6")
-	)
-	(junction
-		(at 309.88 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f37b5729-f5fa-4074-9846-570ec82c304f")
 	)
 	(junction
 		(at 207.01 123.19)
@@ -4047,7 +4448,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 194.31) (xy 304.8 212.09)
+			(xy 307.34 194.31) (xy 307.34 212.09)
 		)
 		(stroke
 			(width 0)
@@ -4097,7 +4498,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 212.09) (xy 304.8 215.9)
+			(xy 307.34 212.09) (xy 307.34 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4347,6 +4748,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 215.9) (xy 306.07 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198acb83-2de8-4963-9df2-4e67248ecf1c")
+	)
+	(wire
+		(pts
 			(xy 147.32 195.58) (xy 171.45 195.58)
 		)
 		(stroke
@@ -4387,7 +4798,17 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 191.77) (xy 309.88 191.77)
+			(xy 306.07 120.65) (xy 300.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea930fc-6694-4f8b-9ea2-2fe54cd35106")
+	)
+	(wire
+		(pts
+			(xy 311.15 191.77) (xy 316.23 191.77)
 		)
 		(stroke
 			(width 0)
@@ -4607,6 +5028,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 212.09) (xy 306.07 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d5d90c-dfae-4203-9df7-385c8ec26b61")
+	)
+	(wire
+		(pts
 			(xy 335.28 107.95) (xy 335.28 102.87)
 		)
 		(stroke
@@ -4757,6 +5188,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 118.11) (xy 294.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552ac8e4-5558-489b-918f-9d1223c3087b")
+	)
+	(wire
+		(pts
 			(xy 241.3 189.23) (xy 259.08 189.23)
 		)
 		(stroke
@@ -4837,7 +5278,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 44.45) (xy 303.53 41.91)
+			(xy 306.07 44.45) (xy 306.07 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5067,7 +5508,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 120.65) (xy 300.99 118.11)
+			(xy 306.07 120.65) (xy 306.07 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5094,6 +5535,16 @@
 			(type default)
 		)
 		(uuid "98e9be20-eafe-44ca-b046-428f683e0054")
+	)
+	(wire
+		(pts
+			(xy 306.07 44.45) (xy 303.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b69b2a8-afd7-4e09-ac5f-853a7c9432e2")
 	)
 	(wire
 		(pts
@@ -5307,7 +5758,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 194.31) (xy 304.8 191.77)
+			(xy 307.34 194.31) (xy 307.34 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5377,6 +5828,26 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 212.09) (xy 297.18 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c642b555-f96d-42e8-8b56-4fd7397f6d12")
+	)
+	(wire
+		(pts
+			(xy 307.34 191.77) (xy 311.15 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ac8fa3-1512-4be1-8f31-c4645806df71")
+	)
+	(wire
+		(pts
 			(xy 306.07 100.33) (xy 323.85 100.33)
 		)
 		(stroke
@@ -5407,16 +5878,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 191.77) (xy 316.23 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccf286f4-5448-4565-86a5-b8879dc50c94")
-	)
-	(wire
-		(pts
 			(xy 208.28 115.57) (xy 208.28 100.33)
 		)
 		(stroke
@@ -5424,6 +5885,16 @@
 			(type default)
 		)
 		(uuid "cd0e4e3f-09fb-437f-a269-d2da919238cb")
+	)
+	(wire
+		(pts
+			(xy 308.61 118.11) (xy 312.42 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1af433-9a05-41ba-9f93-345d97761578")
 	)
 	(wire
 		(pts
@@ -5477,16 +5948,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 118.11) (xy 306.07 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf552269-dd31-4280-8fbe-6f4e34d4979e")
-	)
-	(wire
-		(pts
 			(xy 285.75 41.91) (xy 295.91 41.91)
 		)
 		(stroke
@@ -5517,7 +5978,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 194.31) (xy 304.8 194.31)
+			(xy 287.02 194.31) (xy 307.34 194.31)
 		)
 		(stroke
 			(width 0)
@@ -5537,7 +5998,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 118.11) (xy 312.42 118.11)
+			(xy 306.07 118.11) (xy 308.61 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5604,6 +6065,16 @@
 			(type default)
 		)
 		(uuid "d9c6f1b6-aea8-4d13-9485-6bff54be9087")
+	)
+	(wire
+		(pts
+			(xy 298.45 215.9) (xy 297.18 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db742e37-6de3-473a-a735-d3690c63f9a8")
 	)
 	(wire
 		(pts
@@ -5697,6 +6168,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 118.11) (xy 306.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc9de8e-b5e9-41d1-a714-497c636bbf26")
+	)
+	(wire
+		(pts
 			(xy 327.66 177.8) (xy 337.82 177.8)
 		)
 		(stroke
@@ -5737,13 +6218,13 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 41.91) (xy 326.39 41.91)
+			(xy 306.07 41.91) (xy 326.39 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f743fd9f-6cad-422c-b6c4-64fc7b4a4fc0")
+		(uuid "f6e07136-352a-48fb-89e6-e0c468e0f81a")
 	)
 	(wire
 		(pts
@@ -14330,85 +14811,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 299.72 41.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "16517674-eae1-4b65-8d8f-f418e76bbfd9")
-		(property "Reference" "L2"
-			(at 299.974 37.338 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.8u"
-			(at 299.974 39.878 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 299.72 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6bd90675-ac51-4eaf-b129-43c43d16347d")
-		)
-		(pin "2"
-			(uuid "5e8144e9-ccea-4038-940a-86051b5c1941")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 297.18 138.43 270)
 		(unit 1)
@@ -16111,7 +16513,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 306.07 118.11 0)
+		(at 308.61 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16122,7 +16524,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c184ca6-1377-4cb1-859c-8b87af022101")
 		(property "Reference" "#FLG04"
-			(at 306.07 116.205 0)
+			(at 308.61 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16133,7 +16535,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 306.07 113.03 0)
+			(at 308.61 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16143,7 +16545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 118.11 0)
+			(at 308.61 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16154,7 +16556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 118.11 0)
+			(at 308.61 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16165,7 +16567,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 306.07 118.11 0)
+			(at 308.61 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17074,6 +17476,119 @@
 		)
 	)
 	(symbol
+		(lib_id "PDB_LCSC_Libs:TMPA1265SP-330MN-D")
+		(at 299.72 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bef2f8a-0046-4099-8e40-82cce0f5bab0")
+		(property "Reference" "SW1"
+			(at 299.69 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33uH"
+			(at 299.69 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PDB_LCSC:IND-SMD_L13.5-W12.6"
+			(at 299.72 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2880058.pdf"
+			(at 299.72 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TAI-TECH(台庆)"
+			(at 299.72 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TMPA1265SP-330MN-D"
+			(at 299.72 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2880058"
+			(at 299.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "918430e1-f619-43de-a5a0-434686605e90")
+		)
+		(pin "2"
+			(uuid "123595a5-3589-4531-901e-dac100c1fe44")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PDB_LCSC_Libs:XT60PW-M")
 		(at 342.9 193.04 0)
 		(mirror x)
@@ -17274,7 +17789,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 309.88 191.77 0)
+		(at 311.15 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17285,7 +17800,7 @@
 		(fields_autoplaced yes)
 		(uuid "41d6eead-8508-44b2-84cf-014a51b41fbf")
 		(property "Reference" "#FLG06"
-			(at 309.88 189.865 0)
+			(at 311.15 189.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17296,7 +17811,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 309.88 186.69 0)
+			(at 311.15 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17306,7 +17821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 191.77 0)
+			(at 311.15 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17317,7 +17832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 191.77 0)
+			(at 311.15 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17328,7 +17843,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 309.88 191.77 0)
+			(at 311.15 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18747,7 +19262,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 300.99 215.9 270)
+		(at 302.26 215.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18757,7 +19272,7 @@
 		(dnp no)
 		(uuid "640bdd6b-4730-4ecf-ba70-09f89886e041")
 		(property "Reference" "C39"
-			(at 299.466 219.202 90)
+			(at 300.736 219.202 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18768,7 +19283,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 299.466 221.742 90)
+			(at 300.736 221.742 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18779,7 +19294,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 297.18 216.8652 0)
+			(at 298.45 216.8652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18790,7 +19305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 215.9 0)
+			(at 302.26 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18801,7 +19316,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 300.99 215.9 0)
+			(at 302.26 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20783,6 +21298,119 @@
 		)
 	)
 	(symbol
+		(lib_id "PDB_LCSC_Libs:NLV32T-1R8J-PF")
+		(at 300.99 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9838c7c5-d55f-48e1-9587-ebd30a7dbd3b")
+		(property "Reference" "L1"
+			(at 300.9594 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.8u"
+			(at 300.9594 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PDB_LCSC:L1210"
+			(at 300.99 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Inductors-SMD_TDK_NLV32T-1R8J-PF_NLV32T-1R8J-PF_C41039.html"
+			(at 300.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 300.99 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NLV32T-1R8J-PF"
+			(at 300.99 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C41039"
+			(at 300.99 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5cec034-237d-4b74-b30d-2ddb4643d4e7")
+		)
+		(pin "2"
+			(uuid "e6aa9f07-9b90-422b-8b75-d2aee32dbb39")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PDB_LCSC_Libs:LT8612EUDE#TRPBF")
 		(at 271.78 53.34 0)
 		(unit 1)
@@ -21176,7 +21804,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 300.99 212.09 270)
+		(at 302.26 212.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21186,7 +21814,7 @@
 		(dnp no)
 		(uuid "a27c897b-df8a-482f-ac5b-a8b3de0dc9e7")
 		(property "Reference" "R69"
-			(at 303.276 207.264 90)
+			(at 304.546 207.264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21197,7 +21825,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 302.26 209.55 90)
+			(at 303.53 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21208,7 +21836,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 300.736 213.106 90)
+			(at 302.006 213.106 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21219,7 +21847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 212.09 0)
+			(at 302.26 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21230,7 +21858,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 300.99 212.09 0)
+			(at 302.26 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23479,85 +24107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 300.99 191.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9aaa3f3-18d5-40cf-bbb3-4479f9172181")
-		(property "Reference" "L5"
-			(at 301.244 187.198 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uh"
-			(at 301.244 189.738 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 300.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6955f10f-f6d7-4d13-8eb0-1ac85d261497")
-		)
-		(pin "2"
-			(uuid "ea561d75-e3f7-4375-a292-7289314ae8e2")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 289.56 113.03 90)
 		(unit 1)
@@ -23870,6 +24419,119 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PDB_LCSC_Libs:CYA0630-10UH")
+		(at 302.26 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de9e281e-0c27-42c5-a953-735569ec4dd4")
+		(property "Reference" "U1"
+			(at 302.23 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 302.23 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PDB_LCSC:IND-SMD_L7.2-W6.6_GPSR07X0"
+			(at 302.26 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5189958.pdf"
+			(at 302.26 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 302.26 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CYA0630-10UH"
+			(at 302.26 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5189958"
+			(at 302.26 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b116f14-f80b-4d7b-8113-f34963d27b79")
+		)
+		(pin "2"
+			(uuid "91476194-4e72-45f1-941c-8fcc47dbeb0d")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -24910,85 +25572,6 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "#PWR0180")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 297.18 118.11 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0c2b372-4890-483b-a6a9-f2ba7191972a")
-		(property "Reference" "L3"
-			(at 297.434 113.538 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "35u"
-			(at 297.434 116.078 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 297.18 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "091d0c56-daa9-4805-b08a-c7e639f77fe9")
-		)
-		(pin "2"
-			(uuid "76e690ee-3573-4ece-80d7-6b416cbcc24a")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "L3")
 					(unit 1)
 				)
 			)
