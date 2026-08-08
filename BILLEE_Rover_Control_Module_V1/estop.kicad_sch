@@ -3670,7 +3670,7 @@
 		)
 		(uuid "4e6b642b-fdc2-4ae2-8502-3b234e7488ab")
 	)
-	(text_box "I2C0	INA780x DRIVE6	0x47	A1=VS, A0=SCL"
+	(text_box "I2C0	INA780x SCIENCE	0x4D	A1=SCL, A0=VS"
 		(exclude_from_sim no)
 		(at 339.09 136.525 0)
 		(size 59.055 3.9483)
@@ -4383,12 +4383,6 @@
 		(uuid "7957794e-ec4d-4af7-ac70-2c25ed759808")
 	)
 	(junction
-		(at 378.46 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b978b3a-a66f-4221-8112-1bab7b0f19db")
-	)
-	(junction
 		(at 290.83 337.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4399,12 +4393,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d4e7bfc-6f96-434b-82d0-d70ed2862298")
-	)
-	(junction
-		(at 381 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d6f24db-7576-4196-93b7-78f1ed87a78a")
 	)
 	(junction
 		(at 207.01 118.11)
@@ -4443,12 +4431,6 @@
 		(uuid "847a0777-9635-4b36-816b-6dfcfb0390f2")
 	)
 	(junction
-		(at 365.76 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85fcccfa-2bde-4411-a77c-6626c9324302")
-	)
-	(junction
 		(at 398.78 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4465,6 +4447,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c15a4ed-cdee-40c9-87a5-b0fa86cfb69a")
+	)
+	(junction
+		(at 365.76 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c17aba5-4905-49d9-89f0-41de61e28836")
 	)
 	(junction
 		(at 345.44 105.41)
@@ -4531,6 +4519,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cbe19f1-76eb-4734-8d67-743b309be218")
+	)
+	(junction
+		(at 378.46 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e653f14-c308-477f-bcbe-db5fdc5b8600")
 	)
 	(junction
 		(at 162.56 257.81)
@@ -5240,16 +5234,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 110.49) (xy 378.46 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08dd4690-0be3-4207-9b43-a9b606b1a1af")
-	)
-	(wire
-		(pts
 			(xy 281.94 523.24) (xy 281.94 528.32)
 		)
 		(stroke
@@ -5790,16 +5774,6 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 35.56) (xy 381 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23fffdec-6a62-444b-9288-a87e4ad65982")
-	)
-	(wire
-		(pts
 			(xy 419.1 170.18) (xy 419.1 171.45)
 		)
 		(stroke
@@ -5827,6 +5801,16 @@
 			(type default)
 		)
 		(uuid "283f11af-ca34-445e-ad17-6ef528c784f5")
+	)
+	(wire
+		(pts
+			(xy 377.19 119.38) (xy 377.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28594e29-898a-460e-9670-bb84eab65faf")
 	)
 	(wire
 		(pts
@@ -5907,16 +5891,6 @@
 			(type default)
 		)
 		(uuid "2cb8802d-c050-4780-b4bc-7471b90962ad")
-	)
-	(wire
-		(pts
-			(xy 365.76 100.33) (xy 377.19 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2daeb22f-6196-4560-b3a8-114278de3d92")
 	)
 	(wire
 		(pts
@@ -6720,6 +6694,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 110.49) (xy 379.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b414f39-08d3-47c2-8c24-0547c2585c73")
+	)
+	(wire
+		(pts
 			(xy 180.34 266.7) (xy 207.01 266.7)
 		)
 		(stroke
@@ -7230,16 +7214,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 110.49) (xy 379.73 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76919ca5-3bab-401f-85d3-4dd53efecbd3")
-	)
-	(wire
-		(pts
 			(xy 152.4 270.51) (xy 147.32 270.51)
 		)
 		(stroke
@@ -7427,16 +7401,6 @@
 			(type default)
 		)
 		(uuid "825a504b-14ad-4b88-a2b2-d6b25c38573e")
-	)
-	(wire
-		(pts
-			(xy 377.19 119.38) (xy 377.19 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82951394-3954-412c-8eed-5b47d93f5d9d")
 	)
 	(wire
 		(pts
@@ -8360,6 +8324,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 110.49) (xy 378.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b711e8a8-0c13-40b4-85e3-3b86d898dc70")
+	)
+	(wire
+		(pts
 			(xy 358.14 99.06) (xy 358.14 100.33)
 		)
 		(stroke
@@ -8427,6 +8401,16 @@
 			(type default)
 		)
 		(uuid "b8fa6c3a-f9f0-4f07-a678-461477153fdf")
+	)
+	(wire
+		(pts
+			(xy 377.19 100.33) (xy 365.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93cad98-9faa-47f1-80f3-87c17876c86c")
 	)
 	(wire
 		(pts
@@ -8577,16 +8561,6 @@
 			(type default)
 		)
 		(uuid "be9bf489-00a9-4e68-9b66-d9500be75c8d")
-	)
-	(wire
-		(pts
-			(xy 392.43 54.61) (xy 392.43 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "befb8650-3f5d-4a19-972c-b687b1131966")
 	)
 	(wire
 		(pts
@@ -8967,6 +8941,16 @@
 			(type default)
 		)
 		(uuid "cfecfab3-a114-4470-85c3-0f4a7799e7c3")
+	)
+	(wire
+		(pts
+			(xy 392.43 54.61) (xy 392.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0882d33-02a9-4ff8-a7aa-2bb80f7c00bb")
 	)
 	(wire
 		(pts
@@ -14991,7 +14975,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 414.9852 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15979,6 +15963,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 392.43 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32bcdee0-3d42-4ffd-b6a3-7d475fd83e82")
+		(property "Reference" "#PWR0200"
+			(at 392.43 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 392.43 62.484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 392.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 392.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 392.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac50afea-618b-4d65-957d-63636d94cd4b")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/38c7de8f-1e1e-425a-b64c-5257d5cddadc"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 276.86 201.93 0)
 		(unit 1)
@@ -16324,7 +16385,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 417.5252 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -16626,7 +16687,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 397.2052 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -19372,7 +19433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 406.0952 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -22096,7 +22157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 399.7452 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -31283,7 +31344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 408.6352 113.03 0)
 			(hide yes)
 			(show_name no)
