@@ -1181,26 +1181,6 @@
 		)
 		(uuid "3d7cc05b-7821-4cce-9f72-3230e147b64b")
 	)
-	(text_box "Design Revisions:\n1. Add reverse circuit protections to drive/arm/science\n2. Finish assigning footprints make sure to fix ones imported from scales\n3. Simulate Everything"
-		(exclude_from_sim no)
-		(at 246.38 217.805 0)
-		(size 120.015 46.0654)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3.048 3.048)
-			)
-			(justify left top)
-		)
-		(uuid "6ab59c1a-55fb-4c45-961f-1908b218e780")
-	)
 	(text_box "Github Repo"
 		(exclude_from_sim no)
 		(at 243.205 20.955 0)
