@@ -104,6 +104,18 @@
 		(uuid "149382ae-54ca-42af-9116-31970012ff1b")
 	)
 	(rectangle
+		(start 227.33 237.49)
+		(end 452.12 405.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "18fc04df-04b6-4005-b2ff-48c63162a5c3")
+	)
+	(rectangle
 		(start 356.87 30.48)
 		(end 577.85 60.96)
 		(stroke
@@ -673,6 +685,18 @@
 			(type none)
 		)
 		(uuid "d1bcc780-6d39-47da-aab1-7f0fa6c9b0b3")
+	)
+	(rectangle
+		(start 15.24 237.49)
+		(end 224.79 405.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e60b97fc-4629-4f2a-b889-4d3e98aa61f0")
 	)
 	(arc
 		(start 294.9805 137.9018)
@@ -6398,7 +6422,7 @@
 		)
 	)
 	(image
-		(at 336.55 321.31)
+		(at 339.09 322.58)
 		(scale 2.30949)
 		(uuid "07d78d65-1906-4cfe-8b74-cd18ef694f3b")
 		(data "iVBORw0KGgoAAAANSUhEUgAABGIAAAM2CAYAAAC9iyXwAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -8466,8 +8490,8 @@
 		)
 	)
 	(image
-		(at 121.92 321.31)
-		(scale 2.53682)
+		(at 120.65 321.31)
+		(scale 2.49399)
 		(uuid "12633bc2-9b66-484e-9c6c-16f19ed492bf")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA78AAALmCAYAAACKFiMRAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3X9sI/d9N/j3SFQcJ/ssFsYGa6RwvNRy6x1WAkolKAy0D2JfgMAPuVS7avdwy4loO2oDPDk/"
