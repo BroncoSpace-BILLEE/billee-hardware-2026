@@ -3682,6 +3682,26 @@
 		)
 		(uuid "d51a5c33-9951-44e7-9056-375f4ffd3330")
 	)
+	(text "Load Switch"
+		(exclude_from_sim no)
+		(at 184.658 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d96af254-0d09-4c79-939c-bee1f374eb20")
+	)
+	(text "Switching Reg"
+		(exclude_from_sim no)
+		(at 283.972 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e117e804-925f-4c12-a491-0a41c91ed43d")
+	)
 	(text "(+22.2v -> +20v) Jetson power + POE"
 		(exclude_from_sim no)
 		(at 95.758 96.52 0)
@@ -4039,6 +4059,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d0ba8e3-7e95-4d8f-a96f-c397abe97354")
+	)
+	(junction
+		(at 49.53 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4da8df89-97bb-40fc-83e1-34e364b01cf3")
 	)
 	(junction
 		(at 308.61 118.11)
@@ -5238,6 +5264,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 106.68) (xy 49.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d81a54b-f5c8-4424-9293-52ac4c58566b")
+	)
+	(wire
+		(pts
 			(xy 349.25 185.42) (xy 349.25 172.72)
 		)
 		(stroke
@@ -5335,6 +5371,16 @@
 			(type default)
 		)
 		(uuid "740f5a4e-d112-4d49-9634-1e227eb7c170")
+	)
+	(wire
+		(pts
+			(xy 49.53 105.41) (xy 49.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750514b1-e38c-456e-894a-a8e13dcd9422")
 	)
 	(wire
 		(pts
@@ -5635,6 +5681,16 @@
 			(type default)
 		)
 		(uuid "a18a4e6f-95bf-4afa-ab38-eaaeda342fa6")
+	)
+	(wire
+		(pts
+			(xy 21.59 106.68) (xy 49.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3763045-bcab-4a6f-a822-37796c79bd15")
 	)
 	(wire
 		(pts
@@ -13166,6 +13222,41 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 328.93 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b3d7da5-a5de-44cc-a023-26d0b1bc2362")
+		(property "Net Class" ""
+			(at 101.6 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "Jetsonregs"
+			(at 329.6285 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 199.39 219.71 0)
@@ -13278,7 +13369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 138.43 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14200,7 +14291,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10ab8b02-e707-4d3f-81f3-393570769a9e")
 		(property "Reference" "#PWR03"
 			(at 41.91 114.3 0)
@@ -14214,7 +14304,7 @@
 			)
 		)
 		(property "Value" "+22.2V_LOGIC"
-			(at 41.91 105.41 0)
+			(at 33.274 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14734,6 +14824,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 21.59 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13f9fe89-d27f-4adc-b6d3-ef59b85ce9d2")
+		(property "Reference" "#PWR0200"
+			(at 21.59 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d191ca05-e96b-42e9-9f8c-36eaa92d6638")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 142.24 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -14893,7 +15061,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 49.53 113.03 0)
+		(at 49.53 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14903,7 +15071,7 @@
 		(dnp no)
 		(uuid "16e9a452-4ef5-43da-a827-4cd1d919de9c")
 		(property "Reference" "#PWR05"
-			(at 49.53 116.84 0)
+			(at 49.53 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14914,7 +15082,7 @@
 			)
 		)
 		(property "Value" "+3.3V_RP2350_VCC"
-			(at 52.324 109.22 0)
+			(at 52.324 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14924,7 +15092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 113.03 0)
+			(at 49.53 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14935,7 +15103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 113.03 0)
+			(at 49.53 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14946,7 +15114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 49.53 113.03 0)
+			(at 49.53 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15282,7 +15450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 222.25 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -15994,7 +16162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 226.06 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -16150,7 +16318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 135.89 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -22662,6 +22830,107 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 326.39 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b818c671-7126-41a3-8c7f-0717b5f39c05")
+		(property "Reference" "C23"
+			(at 332.74 48.006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47u"
+			(at 332.74 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+			(at 327.3552 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 326.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 331.216 50.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "6V"
+			(at 330.2 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aad84ffa-2227-462f-92eb-df4ec77e0f93")
+		)
+		(pin "1"
+			(uuid "f89bcb84-dcac-4e25-86ea-c1969b1a40d8")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 248.92 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -22895,7 +23164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 315.9252 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -22928,7 +23197,7 @@
 				)
 			)
 		)
-		(property "Package" "1210"
+		(property "Package" "0402"
 			(at 319.786 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22938,7 +23207,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "6V"
 			(at 318.77 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23374,107 +23643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 326.39 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1ca0ba3-31d9-41d6-bffa-d1a3a3b51d53")
-		(property "Reference" "C23"
-			(at 332.74 48.006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47u"
-			(at 332.74 45.466 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 327.3552 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 326.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "1210"
-			(at 331.216 50.038 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 330.2 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a9d81ff3-f11b-4a88-8457-4f3cdd4c7e0d")
-		)
-		(pin "1"
-			(uuid "3cc029d4-f938-4c34-a21b-25b21e68081e")
-		)
-		(instances
-			(project "BILLEE_Rover_Control_Module_V1"
-				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 220.98 196.85 0)
 		(unit 1)
@@ -23903,7 +24071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 224.79 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -24662,7 +24830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 139.7 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -25572,6 +25740,87 @@
 			(project "BILLEE_Rover_Control_Module_V1"
 				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 21.59 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed107d68-24fc-44c9-8179-2f4f35592030")
+		(property "Reference" "C72"
+			(at 18.288 109.982 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 19.05 107.696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 20.6248 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 21.59 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1dd48e2-ccdf-4d54-bea7-0e7fca52a2d5")
+		)
+		(pin "1"
+			(uuid "72ef0e85-0718-47e1-ac13-2623e15c11e6")
+		)
+		(instances
+			(project "BILLEE_Rover_Control_Module_V1"
+				(path "/e701dc98-f022-461d-84b5-6b2dd8d89d58/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37"
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -26583,7 +26832,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ff3d7138-886a-448e-a389-3b90eeb43b70")
 		(property "Reference" "#PWR026"
 			(at 198.12 76.2 0)
@@ -26597,7 +26845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 74.93 0)
+			(at 201.422 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
