@@ -8802,6 +8802,7 @@
 	)
 	(label "DP_D-"
 		(at 153.67 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8809,6 +8810,18 @@
 			(justify left bottom)
 		)
 		(uuid "3c6001fb-74d2-4ca8-98f9-bb425e514050")
+		(property "Net Class" "90R_DIFFPAIR"
+			(at 153.67 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "GPIO27_ADC1"
 		(at 153.67 154.94 0)
@@ -9142,6 +9155,7 @@
 	)
 	(label "DP_D+"
 		(at 153.67 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9149,6 +9163,18 @@
 			(justify left bottom)
 		)
 		(uuid "cb19a574-80ed-4ad8-b118-5d03bfa1065c")
+		(property "Net Class" "90R_DIFFPAIR"
+			(at 153.67 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "GPIO22"
 		(at 154.94 140.97 0)
@@ -9343,6 +9369,18 @@
 		(uuid "2504bd18-b288-4aec-b7e0-bb6c7efd6af3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 192.2152 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Net Class" "90R_DIFFPAIR"
+			(at 181.61 72.4218 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9871,6 +9909,18 @@
 		(uuid "c591568c-da2b-472b-a513-aea5ce5db9d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 192.2152 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Net Class" "90R_DIFFPAIR"
+			(at 181.61 83.8518 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
