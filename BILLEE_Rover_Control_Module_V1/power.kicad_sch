@@ -3669,7 +3669,7 @@
 		)
 		(uuid "af66c9aa-9561-4484-bc15-630917cb8eda")
 	)
-	(text "+12V Network Switch and Aux Power"
+	(text "(+22.2v -> +12V) Network Switch and Aux Power"
 		(exclude_from_sim no)
 		(at 96.012 171.958 0)
 		(effects
@@ -13222,41 +13222,6 @@
 			)
 		)
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 328.93 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b3d7da5-a5de-44cc-a023-26d0b1bc2362")
-		(property "Net Class" ""
-			(at 101.6 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component Class" "Jetsonregs"
-			(at 329.6285 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 199.39 219.71 0)
@@ -18357,7 +18322,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4cb22618-45a0-462d-af08-c4bb15bbdec1")
 		(property "Reference" "#PWR043"
 			(at 262.89 165.1 0)
@@ -18371,7 +18335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 163.83 0)
+			(at 267.716 160.274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
