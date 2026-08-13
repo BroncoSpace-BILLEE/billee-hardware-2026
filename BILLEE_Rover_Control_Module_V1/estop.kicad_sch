@@ -11846,41 +11846,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 349.25 16.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4980d8b-ddad-4067-8882-5ec696ed044f")
-		(property "Net Class" ""
-			(at 210.82 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component Class" "Arm"
-			(at 349.9485 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 190.5 368.3 180)
 		(fields_autoplaced yes)
 		(effects
