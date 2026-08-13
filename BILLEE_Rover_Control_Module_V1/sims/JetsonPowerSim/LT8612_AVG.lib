@@ -1,0 +1,24 @@
+* Behavioral AVERAGE model of the LT8612 synchronous buck regulator.
+* NOT cycle-accurate: no switching frequency, no ripple, no EMI, and the
+* control loop is a generic gm/C integrator (real internal compensation is
+* proprietary and not modeled). Intended for fast, multi-second system-level
+* studies only. Cross-check specific transient events against the real
+* LT8612.sub switching model over short windows separately.
+* Pin order matches PowerProducts\LT8612.asy exactly:
+* MODE TRSS RT ENUV VIN PGND SW BST INTVCC BIAS PG FB GND
+.SUBCKT LT8612_AVG MODE TRSS RT ENUV VIN NC1 PGND NC2 SW NC3 NC4 BST INTVCC BIAS PG FB GND PARAMS: VREF=0.8 GM=1m CINT=100n DUTYMAX=0.9
+RMODE MODE GND 1MEG
+RRT RT GND 1MEG
+RBST BST GND 1MEG
+RINTVCC INTVCC GND 1MEG
+RBIAS BIAS GND 1MEG
+ISS TRSS GND 10U
+EEN ENL GND VALUE={IF(V(ENUV,GND)>1.2,1,0)}
+EVREFF VREFF GND VALUE={MIN(V(TRSS,GND),{VREF})}
+GERR ERR GND VALUE={ {GM}*(V(VREFF,GND)-V(FB,GND)) }
+CERR ERR GND {CINT}
+RERR ERR GND 100MEG
+EDUTY DUTY GND VALUE={MAX(0,MIN({DUTYMAX},V(ERR,GND)))*V(ENL,GND)}
+ESW SW PGND VALUE={V(DUTY,GND)*V(VIN,PGND)}
+EPG PG GND VALUE={IF(V(FB,GND)>0.76,5,0)}
+.ENDS LT8612_AVG

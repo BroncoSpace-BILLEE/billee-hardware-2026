@@ -1,0 +1,3 @@
+"/c/Users/Luca Lanzillotta/AppData/Local/Programs/ADI/LTspice/LTspice.exe" -b -Run "/c/Users/Luca Lanzillotta/Documents/GitHub/billee-hardware-2026/BILLEE_Rover_Control_Module_V1/sims/JetsonPowerSim/JetsonPwr.asc"
+
+^ put that in git bash in this directory
