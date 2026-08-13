@@ -1,0 +1,27 @@
+* Simplified behavioral replacement for TPS1HB08B-Q1_TRANS.
+* Plain series power switch: VBB -> VOUT when EN > VENTH, Ron=RON.
+* No current-limit, diagnostics, thermal, or fault-latch behavior modeled.
+* For fast system-level power-tree checks only, per user confirmation that
+* U1 is used here as a straightforward series switch (not under protection-
+* logic test).
+* Pin order matches TPS1HB08B-Q1_TRANS.asy exactly:
+* DIA_EN EN GND ILIM LATCH NC_0 NC_1 NC_2 SEL1 SNS TCON TJ VBB VOUT_0..VOUT_5
+.SUBCKT TPS1HB08B_SW DIA_EN EN GND ILIM LATCH NC_0 NC_1 NC_2 SEL1 SNS TCON TJ VBB VOUT_0 VOUT_1 VOUT_2 VOUT_3 VOUT_4 VOUT_5 PARAMS: RON=16m VENTH=1.5 TEMP_AMB=25
+RDIAEN DIA_EN GND 1MEG
+RILIM ILIM GND 1MEG
+RLATCH LATCH GND 1MEG
+RNC0 NC_0 GND 1MEG
+RNC1 NC_1 GND 1MEG
+RNC2 NC_2 GND 1MEG
+RSEL1 SEL1 GND 1MEG
+RSNS SNS GND 1MEG
+RTCON TCON GND 1MEG
+RTJ TJ GND 1MEG
+SSW VBB VOUT_0 EN GND SWMOD
+.MODEL SWMOD SW(Ron={RON} Roff=100MEG Vt={VENTH} Vh=0.1)
+RP01 VOUT_0 VOUT_1 1m
+RP12 VOUT_1 VOUT_2 1m
+RP23 VOUT_2 VOUT_3 1m
+RP34 VOUT_3 VOUT_4 1m
+RP45 VOUT_4 VOUT_5 1m
+.ENDS TPS1HB08B_SW
