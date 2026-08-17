@@ -3674,7 +3674,7 @@
 	)
 	(text_box "I2C0	INA780x SCIENCE	0x4D	A1=SCL, A0=VS"
 		(exclude_from_sim no)
-		(at 365.887 127.3697 0)
+		(at 324.485 138.5457 0)
 		(size 59.055 3.9483)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3714,7 +3714,7 @@
 	)
 	(text_box "AND Gate array for ESTOP Circuit"
 		(exclude_from_sim no)
-		(at 121.92 42.7624 0)
+		(at 69.342 33.1104 0)
 		(size 17.78 8.0376)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3895,7 +3895,7 @@
 	(text_box "UVLO set to max IC can handle due to bounds. 10.5v"
 		(exclude_from_sim no)
 		(at 237.49 22.86 0)
-		(size 15.24 15.24)
+		(size 15.24 12.1268)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
