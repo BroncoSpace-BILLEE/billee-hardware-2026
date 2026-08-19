@@ -13568,7 +13568,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 318.77 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21732,7 +21732,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 328.93 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26589,7 +26589,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 317.5 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26877,7 +26877,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 330.2 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
