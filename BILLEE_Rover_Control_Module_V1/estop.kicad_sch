@@ -3752,7 +3752,7 @@
 		)
 		(uuid "78340bf5-d39d-44f3-a879-680a6aa580cc")
 	)
-	(text_box "Configuring OVLO to be 32v.\nR82 = 840k\nR83 = 33k\n"
+	(text_box "Configuring OVLO to be 32v.\nR82 = 866k\nR83 = 34k\n"
 		(exclude_from_sim no)
 		(at 264.795 56.5928 0)
 		(size 21.59 10.0822)
@@ -12808,7 +12808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 94.361 467.233 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14152,7 +14152,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 94.361 276.733 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15808,7 +15808,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 420.37 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17306,7 +17306,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 414.02 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17407,7 +17407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 223.901 119.253 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17608,7 +17608,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 402.59 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18614,7 +18614,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "34k"
 			(at 104.14 344.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18774,7 +18774,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "34k"
 			(at 104.14 471.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19282,7 +19282,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "34k"
 			(at 104.14 534.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19495,7 +19495,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "840k"
+		(property "Value" "866k"
 			(at 104.14 336.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20591,7 +20591,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 411.48 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21483,7 +21483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 94.361 530.733 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23487,7 +23487,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 396.24 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23666,7 +23666,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 253.111 50.673 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24583,7 +24583,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "840k"
+		(property "Value" "866k"
 			(at 233.68 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25968,7 +25968,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 94.361 403.733 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26400,7 +26400,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "840k"
+		(property "Value" "866k"
 			(at 104.14 400.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26719,7 +26719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 94.361 340.233 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27924,7 +27924,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "34k"
 			(at 233.68 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28084,7 +28084,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "34k"
 			(at 104.14 280.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28576,7 +28576,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "840k"
+		(property "Value" "866k"
 			(at 104.14 273.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28776,7 +28776,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "840k"
+		(property "Value" "866k"
 			(at 104.14 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29135,7 +29135,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "840k"
+		(property "Value" "866k"
 			(at 262.89 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29425,7 +29425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 94.361 213.233 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30417,7 +30417,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "840k"
+		(property "Value" "866k"
 			(at 104.14 463.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32091,7 +32091,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "840k"
+		(property "Value" "866k"
 			(at 104.14 527.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33042,7 +33042,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 405.13 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35096,7 +35096,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "34k"
 			(at 104.14 407.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35256,7 +35256,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "34k"
 			(at 262.89 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35806,7 +35806,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "34k"
 			(at 104.14 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
