@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,10.0.0*%
-%TF.CreationDate,2026-08-19T15:36:34-07:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.1*%
+%TF.CreationDate,2026-08-20T02:29:07-07:00*%
 %TF.ProjectId,BILLEE_Rover_Control_Module_V1,42494c4c-4545-45f5-926f-7665725f436f,V1*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.0) date 2026-08-19 15:36:34*
+G04 Created by KiCad (PCBNEW 10.0.1) date 2026-08-20 02:29:07*
 %MOMM*%
 %LPD*%
 G01*
@@ -1650,11 +1650,11 @@ X91357000Y-90604000D03*
 %TD*%
 D38*
 %TO.C,CN2*%
-X67515000Y-108200000D03*
-X60315000Y-108200000D03*
+X67875000Y-108175000D03*
+X60675000Y-108175000D03*
 D39*
-X57165000Y-114200000D03*
-X70665000Y-114200000D03*
+X57525000Y-114175000D03*
+X71025000Y-114175000D03*
 %TD*%
 D12*
 %TO.C,Q8*%
