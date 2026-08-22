@@ -8,10 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Perservance")
-		(date "2026-08-20")
+		(title "Perserverance")
+		(date "2026-08-22")
 		(rev "V1")
 		(company "Bronco STAR")
+		(comment 1 "With love to all. Thank you for this opportunity to make this")
 	)
 	(layers
 		(0 "F.Cu" power "Power")
