@@ -21878,7 +21878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C318062.pdf?spm=wm.sxq.inf.ggs&utm_source=chatgpt.com&lcsc_vid=FVENUldeFQQKA1xfRQAPUVZTRQcKAgFSE1ZZV1wCFQcxVlNeQFRbUFBXRFFdUDsOAxUeFF5JWAIGBhABBxVABAsLWA%3D%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C251997.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.5.xh&lcsc_vid=QQVYBVRXQQdYAgYCE1cPAlZSQVMPAVZTQVQIUlUCRVgxVlNeQFlfV1BWRVFdXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 300.99 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -21913,17 +21913,6 @@
 		)
 		(property "MPN" "FHW1210HC8R2JGT"
 			(at 300.99 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C318062"
-			(at 300.99 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23311,7 +23300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 327.3552 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -23614,7 +23603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 315.9252 49.53 0)
 			(hide yes)
 			(show_name no)

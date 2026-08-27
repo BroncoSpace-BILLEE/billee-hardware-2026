@@ -12305,7 +12305,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c76c5e7-552e-4388-9868-15802eb5cee8")
 		(property "Reference" "U11"
 			(at 209.55 207.01 0)
@@ -12319,8 +12318,7 @@
 			)
 		)
 		(property "Value" "ABM8-272-T3_C20625731"
-			(at 194.31 207.01 0)
-			(hide yes)
+			(at 203.962 199.898 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17369,7 +17367,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bae3f14b-71d6-4a9e-8475-94714e3c30d8")
 		(property "Reference" "R43"
 			(at 252.73 33.528 90)

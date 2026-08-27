@@ -3611,7 +3611,7 @@
 		)
 		(uuid "1428ae1d-5684-47d8-a5c9-f90a6047ea3d")
 	)
-	(text_box "Pull down resistor. ESTOP is Normnally Open, so ESTOP OPEN = Pull down Resistor to GND on ALL And Gate `B` inputs."
+	(text_box "ESTOP is Normnally CLOSED, so when ESTOP is pressed = Pull down Resistor to GND on ALL And Gate `B` inputs."
 		(exclude_from_sim no)
 		(at 22.225 34.925 0)
 		(size 26.035 14.1714)
