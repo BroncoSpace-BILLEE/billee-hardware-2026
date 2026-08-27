@@ -15910,14 +15910,15 @@
 				)
 			)
 		)
-		(property "Value" "+14.4V_SCIENCE"
-			(at 336.55 96.52 0)
+		(property "Value" "+22.2V_SCIENCE"
+			(at 339.09 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -21033,7 +21034,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a12f786-0454-4a25-b2fc-97fe5c690b98")
 		(property "Reference" "#PWR0140"
 			(at 210.82 48.26 0)
@@ -21046,14 +21046,15 @@
 				)
 			)
 		)
-		(property "Value" "+14.4V_ARM_BATT"
-			(at 210.82 39.37 0)
+		(property "Value" "+22.2V_ARM_BATT"
+			(at 202.946 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -22626,7 +22627,7 @@
 				)
 			)
 		)
-		(property "Value" "+14.4V_ARM_SENSOR_OUT"
+		(property "Value" "+22.2V_ARM_SENSOR_OUT"
 			(at 421.132 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25055,14 +25056,15 @@
 				)
 			)
 		)
-		(property "Value" "+14.4V_ARM"
-			(at 360.68 27.94 0)
+		(property "Value" "+22.2V_ARM"
+			(at 363.22 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -25608,7 +25610,7 @@
 				)
 			)
 		)
-		(property "Value" "+14.4V_SCIENCE_SENSOR_OUT"
+		(property "Value" "+22.2V_SCIENCE_SENSOR_OUT"
 			(at 413.512 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34183,7 +34185,7 @@
 				)
 			)
 		)
-		(property "Value" "+14.4V_SCIENCE_BATT"
+		(property "Value" "+22.2V_SCIENCE_BATT"
 			(at 181.102 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
