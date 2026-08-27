@@ -7271,17 +7271,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C3845593"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f9d9b5f8-e442-4f4c-a6f3-da2bb5c9d7a5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/e37b5ac2-398e-41bf-8fb6-2ff87cb1df37/bafc19fe-327c-4d7e-8137-c1683f3c8c02")
 		(sheetname "/Logic Subsystem/")
@@ -10719,16 +10708,27 @@
 				)
 			)
 		)
-		(property "MPN" "FHW1210HC8R2JGT"
+		(property "MPN" "EMTEK LCF1210-8R2J-T"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b28f303-212f-40de-bab2-bbb5363685bd")
+			(uuid "9acb2bf2-71a0-4baa-a59e-980e14631909")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C251997"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a71f5acf-8aec-4a9f-9272-ebf79968eed2")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -40130,17 +40130,6 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C3845593"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "75e28285-426b-424c-8aec-e7be158f88d4")
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
