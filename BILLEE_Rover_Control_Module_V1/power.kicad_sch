@@ -17461,7 +17461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "4.7p"
 			(at 298.196 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23300,7 +23300,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 332.74 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23603,7 +23603,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 321.31 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
