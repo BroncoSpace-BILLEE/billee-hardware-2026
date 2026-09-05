@@ -19,7 +19,7 @@ documents as the intended way to run it without a network connection.
 Do steps 1-3 below in one shot:
 
 ```bash
-sudo ./install-me.sh
+sudo ./jetson_install_me.sh
 ```
 
 Installs Chromium/BlueZ/Xvfb/x11vnc/fluxbox, opens the app once on a
@@ -96,8 +96,16 @@ sudo apt install -y xvfb x11vnc fluxbox
 ```
 
 First run asks you to set a VNC password, then it prints the Jetson's IP.
-From another machine on the same network, connect to it with any VNC viewer
-(TigerVNC Viewer, RealVNC Viewer, etc.) at `<jetson-ip>:5900`.
+From another machine on the same network, connect to it with a VNC viewer at
+`<jetson-ip>:5900`.
+
+The viewing machine needs an **x86 Linux-compatible VNC viewer** — on that
+machine (not the Jetson), run:
+
+```bash
+sudo ./host_install_me.sh
+vncviewer <jetson-ip>:5900
+```
 
 Ctrl-C in the terminal running the script shuts down the virtual display,
 Chromium, and the VNC server together.
