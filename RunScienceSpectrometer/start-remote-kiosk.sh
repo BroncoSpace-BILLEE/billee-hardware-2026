@@ -7,6 +7,7 @@
 set -euo pipefail
 
 RESOLUTION="1600x900x24"
+WINDOW_SIZE="1600,900"
 VNC_PORT="5900"
 VNC_PASSWD_FILE="${HOME}/.vnc/spectral-analysis.passwd"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -83,6 +84,8 @@ fi
 exec {DISPLAYFD}<&-
 DISPLAY_NUM=":${DISPLAY_NUM_RAW}"
 export DISPLAY="$DISPLAY_NUM"
+export WINDOW_SIZE
+echo "Using X display ${DISPLAY_NUM}"
 
 setsid fluxbox &
 FLUXBOX_PID=$!

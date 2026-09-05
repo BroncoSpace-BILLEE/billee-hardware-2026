@@ -47,4 +47,9 @@ exec "$CHROMIUM_BIN" \
   --user-data-dir="$PROFILE_DIR" \
   --app="$APP_URL" \
   --start-maximized \
+  --disable-gpu \
+  --disable-software-rasterizer \
+  --ozone-platform=x11 \
+  --window-position=0,0 \
+  ${WINDOW_SIZE:+--window-size="$WINDOW_SIZE"} \
   "$@"
