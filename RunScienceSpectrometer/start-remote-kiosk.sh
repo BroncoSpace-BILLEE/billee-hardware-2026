@@ -6,7 +6,6 @@
 # One-time install: sudo apt install -y xvfb x11vnc fluxbox
 set -euo pipefail
 
-DISPLAY_NUM=":1"
 RESOLUTION="1600x900x24"
 VNC_PORT="5900"
 VNC_PASSWD_FILE="${HOME}/.vnc/spectral-analysis.passwd"
@@ -59,9 +58,24 @@ trap cleanup EXIT INT TERM
 # Each child runs in its own session (setsid) so Ctrl-C at the terminal only
 # signals this script, not Chromium/Xvfb/x11vnc directly — cleanup() above
 # controls the shutdown order instead of the terminal racing it.
-setsid Xvfb "$DISPLAY_NUM" -screen 0 "$RESOLUTION" &
+#
+# Let Xvfb pick its own free display number (-displayfd) instead of a fixed
+# ":1" — a leftover Xvfb from a previous crashed/killed run can otherwise
+# still be holding that number and the new one refuses to start.
+DISPLAYFD_PIPE="$(mktemp -u)"
+mkfifo -m 600 "$DISPLAYFD_PIPE"
+exec {DISPLAYFD}<>"$DISPLAYFD_PIPE"
+rm -f "$DISPLAYFD_PIPE"
+
+setsid Xvfb -displayfd "$DISPLAYFD" -screen 0 "$RESOLUTION" &
 XVFB_PID=$!
-sleep 1
+
+if ! read -r -u "$DISPLAYFD" -t 10 DISPLAY_NUM_RAW; then
+  echo "Xvfb didn't report a display number in time — check it started correctly." >&2
+  exit 1
+fi
+exec {DISPLAYFD}<&-
+DISPLAY_NUM=":${DISPLAY_NUM_RAW}"
 export DISPLAY="$DISPLAY_NUM"
 
 setsid fluxbox &
@@ -74,6 +88,6 @@ X11VNC_PID=$!
 echo "VNC ready on port ${VNC_PORT}."
 echo "From another machine on the same network, connect a VNC viewer to: $(hostname -I | awk '{print $1}'):${VNC_PORT}"
 
-setsid "$SCRIPT_DIR/launch-spectral-analysis.sh" &
+setsid bash "$SCRIPT_DIR/launch-spectral-analysis.sh" &
 CHROME_PID=$!
 wait "$CHROME_PID"
