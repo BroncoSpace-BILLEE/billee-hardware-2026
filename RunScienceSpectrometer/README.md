@@ -69,6 +69,25 @@ Use [`launch-spectral-analysis.sh`](launch-spectral-analysis.sh) to open the
 app directly in its own window (like a desktop shortcut/bookmark), instead of
 navigating there by hand each time.
 
+## Viewing it from another machine (headless Jetson)
+
+The app itself isn't a web server (unlike something like F Prime GDS), so
+there's no port to just forward — it's a real GUI window that needs a
+Bluetooth-capable browser. Since this Jetson has no monitor, use a virtual
+display + VNC instead:
+
+```bash
+sudo apt install -y xvfb x11vnc fluxbox
+./start-remote-kiosk.sh
+```
+
+First run asks you to set a VNC password, then it prints the Jetson's IP.
+From another machine on the same network, connect to it with any VNC viewer
+(TigerVNC Viewer, RealVNC Viewer, etc.) at `<jetson-ip>:5900`.
+
+Ctrl-C in the terminal running the script shuts down the virtual display,
+Chromium, and the VNC server together.
+
 ## Troubleshooting
 
 - **Device chooser doesn't show the spectrometer** — check `bluetoothctl
@@ -79,3 +98,15 @@ navigating there by hand each time.
   `chrome://serviceworker-internals` for its registration status.
 - **Web Bluetooth option missing entirely** — update Chromium; very old
   builds may need `chrome://flags/#enable-web-bluetooth` enabled manually.
+- **`Failed to create ... SingletonLock: Permission denied`** — on Ubuntu,
+  `chromium-browser` is usually the **snap** build, and its AppArmor
+  confinement blocks writing a profile under `~/.config`. Check with
+  `snap list chromium`. The launcher script already handles this: it stores
+  the profile under `~/snap/chromium/common/spectral-analysis-app` when the
+  snap is detected, instead of `~/.config`. If you still hit this error,
+  delete the stale profile dir and rerun (never with `sudo` — running
+  Chromium as root is a separate, unrelated failure):
+  ```bash
+  rm -rf ~/snap/chromium/common/spectral-analysis-app
+  ./launch-spectral-analysis.sh
+  ```
