@@ -18,6 +18,12 @@ for bin in Xvfb x11vnc fluxbox setsid; do
   }
 done
 
+LAUNCH_SCRIPT="$SCRIPT_DIR/launch-spectral-analysis.sh"
+[ -f "$LAUNCH_SCRIPT" ] || {
+  echo "Error: $LAUNCH_SCRIPT not found next to this script." >&2
+  exit 1
+}
+
 mkdir -p "$(dirname "$VNC_PASSWD_FILE")"
 if [ ! -f "$VNC_PASSWD_FILE" ]; then
   echo "No VNC password set yet — choose one now (first-time setup only):"
@@ -88,6 +94,6 @@ X11VNC_PID=$!
 echo "VNC ready on port ${VNC_PORT}."
 echo "From another machine on the same network, connect a VNC viewer to: $(hostname -I | awk '{print $1}'):${VNC_PORT}"
 
-setsid bash "$SCRIPT_DIR/launch-spectral-analysis.sh" &
+setsid bash "$LAUNCH_SCRIPT" &
 CHROME_PID=$!
 wait "$CHROME_PID"
