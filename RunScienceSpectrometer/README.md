@@ -14,6 +14,20 @@ documents as the intended way to run it without a network connection.
 - Internet access for the *one-time* first run only
 - A Vernier Go Direct spectrometer, charged and powered on
 
+## Quick setup
+
+Do steps 1-3 below in one shot:
+
+```bash
+sudo ./install-me.sh
+```
+
+Installs Chromium/BlueZ/Xvfb/x11vnc/fluxbox, opens the app once on a
+throwaway virtual display to let its service worker cache everything, then
+closes and tells you it's ready to run offline. Needs internet for that one
+run only. Skip to [step 5](#5-connect-the-spectrometer) once it's done, or
+read on for what it's doing under the hood / how to do it by hand.
+
 ## 1. Install a recent Chromium
 
 L4T's default apt Chromium can be old enough that Web Bluetooth is missing or
