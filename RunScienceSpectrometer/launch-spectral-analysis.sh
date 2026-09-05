@@ -43,6 +43,15 @@ fi
 
 mkdir -p "$PROFILE_DIR"
 
+# If a previous run (e.g. an interrupted install-me.sh caching pass) left a
+# Chromium process still holding this profile, a new launch just silently
+# forwards the URL to that orphaned instance and exits immediately instead
+# of opening a real window on the current display. Clear it out first.
+if pkill -f -- "--user-data-dir=$PROFILE_DIR" 2>/dev/null; then
+  sleep 1
+fi
+rm -f "$PROFILE_DIR"/Singleton{Lock,Socket,Cookie}
+
 exec "$CHROMIUM_BIN" \
   --user-data-dir="$PROFILE_DIR" \
   --app="$APP_URL" \
