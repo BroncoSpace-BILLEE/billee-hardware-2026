@@ -5,7 +5,6 @@
 set -euo pipefail
 
 APP_URL="https://spectralanalysis.app/"
-PROFILE_DIR="${HOME}/.config/spectral-analysis-app"
 
 find_chromium() {
   for bin in chromium-browser chromium google-chrome-stable google-chrome; do
@@ -22,6 +21,17 @@ CHROMIUM_BIN="$(find_chromium)" || {
   echo "Install one with: sudo apt install chromium-browser" >&2
   exit 1
 }
+
+# The snap build of Chromium is AppArmor-confined to its own ~/snap/chromium
+# tree; a --user-data-dir under ~/.config gets denied when it tries to create
+# the SingletonLock symlink, no matter the file ownership. Use the snap's
+# writable "common" area when the snap package is installed, otherwise fall
+# back to a normal ~/.config profile for non-snap Chromium/Chrome builds.
+if snap list chromium >/dev/null 2>&1; then
+  PROFILE_DIR="${HOME}/snap/chromium/common/spectral-analysis-app"
+else
+  PROFILE_DIR="${HOME}/.config/spectral-analysis-app"
+fi
 
 if command -v bluetoothctl >/dev/null 2>&1; then
   if ! bluetoothctl show 2>/dev/null | grep -q "Powered: yes"; then
